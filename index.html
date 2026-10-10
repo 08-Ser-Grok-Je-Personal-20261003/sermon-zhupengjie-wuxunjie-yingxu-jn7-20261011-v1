@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1a2b">
+<meta name="description" content="欧陆改革宗主日讲章：约翰福音7:37-39《在住棚节的最后一天耶稣宣告了五旬节的应许》">
+<title>在住棚节的最后一天耶稣宣告了五旬节的应许 · 约7:37-39 · 主日讲章 v1 · 2026-10-11</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e1a2b'/%3E%3Cpath d='M32 10C24 24 18 32 18 40a14 14 0 0028 0c0-8-6-16-14-30z' fill='%233aa0d8'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#0e1a2b; --ink2:#1d2f47; --parch:#f7f1e3; --parch2:#efe5cc; --paper:#fffdf7;
+  --gold:#b8892b; --gold2:#e2c178; --crimson:#a3243b; --water:#1f7fb8; --water2:#5fb8e6;
+  --life:#2f8a4e; --flame:#e0661c; --flame2:#f6a33a; --violet:#6b4fa0; --muted:#5d6676;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","STSong","SimSun",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC","Microsoft YaHei","Segoe UI",sans-serif;
+  --r:18px; --shadow:0 10px 30px -12px rgba(14,26,43,.28); --hdr:60px; --toc:300px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hdr) + 14px);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--serif);color:var(--ink);line-height:1.85;font-size:17px;
+  background:radial-gradient(1200px 600px at 90% -10%,rgba(95,184,230,.18),transparent 60%),
+  radial-gradient(900px 500px at -10% 30%,rgba(226,193,120,.22),transparent 60%),var(--parch);
+  overflow-x:hidden;word-wrap:break-word;overflow-wrap:anywhere}
+img,svg{max-width:100%}
+a{color:var(--water)}
+h1,h2,h3,h4{line-height:1.35;margin:.2em 0 .5em;font-weight:800}
+h2{font-size:clamp(1.35rem,1.1rem + 1.2vw,2rem)}
+h3{font-size:clamp(1.12rem,1rem + .5vw,1.35rem)}
+p{margin:.55em 0}
+/* progress */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:60;background:linear-gradient(90deg,var(--crimson),var(--gold),var(--water),var(--life),var(--flame))}
+/* header */
+.hdr{position:sticky;top:0;z-index:50;height:var(--hdr);display:flex;align-items:center;gap:12px;padding:0 clamp(10px,2vw,24px);
+  background:rgba(14,26,43,.94);color:#fff;border-bottom:1px solid rgba(226,193,120,.35)}
+@supports ((-webkit-backdrop-filter:blur(2px)) or (backdrop-filter:blur(2px))){
+  .hdr{background:rgba(14,26,43,.62);-webkit-backdrop-filter:saturate(160%) blur(14px);backdrop-filter:saturate(160%) blur(14px)}}
+.hdr .brand{font-family:var(--sans);font-weight:700;font-size:.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1}
+.hdr .brand small{color:var(--gold2);font-weight:500;margin-left:.5em}
+.btn{font-family:var(--sans);display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(226,193,120,.5);background:rgba(255,255,255,.08);color:#fff;
+  border-radius:999px;padding:7px 14px;font-size:.88rem;cursor:pointer;transition:transform .2s,background .2s;white-space:nowrap}
+.btn:hover{background:rgba(226,193,120,.22);transform:translateY(-1px)}
+.btn svg{width:18px;height:18px}
+/* layout */
+.layout{display:flex;align-items:flex-start;width:100%}
+.toc{position:sticky;top:var(--hdr);height:calc(100vh - var(--hdr));width:var(--toc);flex:0 0 var(--toc);overflow-y:auto;overscroll-behavior:contain;
+  padding:18px 14px 40px;font-family:var(--sans);font-size:.9rem;background:rgba(255,253,247,.96);border-right:1px solid rgba(184,137,43,.25);
+  transition:margin-left .35s cubic-bezier(.2,.8,.2,1),transform .35s cubic-bezier(.2,.8,.2,1)}
+@supports ((-webkit-backdrop-filter:blur(2px)) or (backdrop-filter:blur(2px))){
+  .toc{background:rgba(255,253,247,.66);-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}}
+body.toc-hidden .toc{margin-left:calc(-1 * var(--toc))}
+.toc h4{font-size:.8rem;letter-spacing:.12em;color:var(--gold);margin:0 0 8px;text-transform:uppercase}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li a{display:flex;gap:8px;align-items:center;padding:6px 10px;border-radius:10px;color:var(--ink2);text-decoration:none;line-height:1.4;transition:background .2s,color .2s}
+.toc li a:hover{background:rgba(184,137,43,.12)}
+.toc li a.active{background:var(--ink);color:#fff}
+.toc li li a{padding-left:28px;font-size:.84rem;color:var(--muted)}
+.toc .dot{width:9px;height:9px;border-radius:50%;flex:0 0 9px}
+main{flex:1;min-width:0;padding:clamp(10px,2.4vw,34px)}
+.scrim{display:none}
+@media (max-width:980px){
+  .toc{position:fixed;left:0;top:var(--hdr);z-index:45;transform:translateX(-105%);box-shadow:var(--shadow);width:min(86vw,320px)}
+  body.toc-open .toc{transform:none}
+  body.toc-hidden .toc{margin-left:0}
+  .scrim{position:fixed;inset:var(--hdr) 0 0 0;background:rgba(14,26,43,.35);z-index:44}
+  body.toc-open .scrim{display:block}
+}
+/* cards */
+section.card{background:var(--paper);border-radius:var(--r);box-shadow:var(--shadow);border:1px solid rgba(184,137,43,.18);
+  padding:clamp(16px,3vw,40px);margin:0 0 clamp(14px,2vw,26px);position:relative;overflow:hidden}
+section.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--accent,var(--gold))}
+.measure{max-width:78ch}
+.wide{width:100%}
+.grid{display:grid;gap:clamp(10px,1.6vw,18px);grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+.grid.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}
+.tile{background:#fff;border-radius:14px;padding:14px 16px;border:1px solid rgba(14,26,43,.08);box-shadow:0 4px 14px -10px rgba(14,26,43,.4);min-width:0}
+.tile h4{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:1.05rem}
+.tile h4 svg{width:24px;height:24px;flex:0 0 24px}
+.kicker{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;color:var(--gold);font-weight:700;text-transform:uppercase}
+.sec-h{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.sec-h .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--accent,var(--gold));color:#fff;flex:0 0 44px}
+.sec-h .ico svg{width:26px;height:26px}
+/* chips & highlights */
+.chip{display:inline-block;font-family:var(--sans);font-size:.82em;font-weight:700;padding:1px 9px;border-radius:999px;margin:0 2px;white-space:nowrap;vertical-align:1px}
+.c-sin{background:#f8dfe3;color:var(--crimson)} .c-water{background:#dcf0fb;color:#145f8c} .c-life{background:#dff2e5;color:#22673a}
+.c-fire{background:#fde7d3;color:#a8460b} .c-gold{background:#f6ebcf;color:#7c5b12} .c-ink{background:var(--ink);color:#fff} .c-violet{background:#ebe4f7;color:var(--violet)}
+.hl{background:linear-gradient(transparent 58%,rgba(226,193,120,.55) 0)}
+.hl-w{background:linear-gradient(transparent 58%,rgba(95,184,230,.35) 0)}
+.hl-r{background:linear-gradient(transparent 58%,rgba(163,36,59,.2) 0)}
+.key{border-left:4px solid var(--gold);background:linear-gradient(90deg,rgba(226,193,120,.2),transparent);padding:10px 14px;border-radius:0 12px 12px 0;margin:12px 0}
+.hard{border-left:4px solid var(--crimson);background:linear-gradient(90deg,rgba(163,36,59,.09),transparent);padding:10px 14px;border-radius:0 12px 12px 0;margin:12px 0}
+.hard::before{content:"难点 ";font-family:var(--sans);font-weight:800;color:var(--crimson);font-size:.85em}
+.note{border-left:4px solid var(--water);background:linear-gradient(90deg,rgba(95,184,230,.13),transparent);padding:10px 14px;border-radius:0 12px 12px 0;margin:12px 0}
+.note::before{content:"史料说明 ";font-family:var(--sans);font-weight:800;color:var(--water);font-size:.85em}
+blockquote.verse{margin:14px 0;padding:14px 18px;border-radius:14px;background:linear-gradient(135deg,#fdf8ea,#f4ead0);border:1px solid rgba(184,137,43,.35);font-size:1.06em;position:relative}
+blockquote.verse cite{display:block;text-align:right;font-style:normal;font-family:var(--sans);font-size:.82rem;color:var(--gold);font-weight:700}
+.sup{font-family:var(--sans);font-size:.7em;color:var(--gold);font-weight:800;vertical-align:super;margin-right:2px}
+/* hero */
+.hero{border-radius:calc(var(--r) + 6px);color:#fff;padding:clamp(22px,5vw,64px);margin-bottom:clamp(14px,2vw,26px);position:relative;overflow:hidden;
+  background:radial-gradient(800px 380px at 85% 110%,rgba(31,127,184,.65),transparent 60%),radial-gradient(600px 300px at 0% 0%,rgba(184,137,43,.4),transparent 60%),linear-gradient(140deg,#0e1a2b,#16304e 60%,#0f2a3d)}
+.hero h1 .nw{display:inline-block}
+.hero h1{font-size:clamp(1.5rem,1.05rem + 2.2vw,2.7rem);margin:.25em 0 .35em;letter-spacing:.02em;text-shadow:0 2px 18px rgba(0,0,0,.35)}
+.hero .sub{color:var(--gold2);font-family:var(--sans);letter-spacing:.08em;font-size:.9rem}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.hero .meta span{font-family:var(--sans);font-size:.82rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:4px 12px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px;align-items:center}
+@media (max-width:820px){.hero-grid{grid-template-columns:1fr}}
+.hero blockquote{margin:14px 0 0;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);font-size:1.05rem}
+.heads{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));margin-top:16px}
+.heads a{display:block;text-decoration:none;color:#fff;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);transition:transform .25s,background .25s}
+.heads a:hover{transform:translateY(-3px);background:rgba(255,255,255,.16)}
+.heads b{display:block;font-size:1.05rem}.heads small{font-family:var(--sans);opacity:.85}
+/* tables */
+.tbl{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:14px;border:1px solid rgba(14,26,43,.1);margin:12px 0;background:#fff}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.95rem}
+th,td{padding:10px 12px;border-bottom:1px solid rgba(14,26,43,.08);text-align:left;vertical-align:top}
+thead th{background:var(--ink);color:#fff;font-family:var(--sans);font-size:.85rem;position:sticky;top:0}
+tbody tr:nth-child(even){background:#fbf7ec}
+tbody tr:hover{background:#f3ead2}
+/* svg boxes */
+.fig{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:16px;background:#fff;border:1px solid rgba(14,26,43,.08);padding:10px;margin:12px 0}
+.fig svg{display:block;width:100%;height:auto;min-width:var(--minw,520px)}
+.fig figcaption{font-family:var(--sans);font-size:.8rem;color:var(--muted);text-align:center;padding-top:6px}
+figure{margin:0}
+/* heads styling */
+.head-card{--accent:var(--water)}
+.point{display:flex;gap:12px;align-items:flex-start;margin:12px 0}
+.point .n{flex:0 0 34px;height:34px;border-radius:50%;display:grid;place-items:center;font-family:var(--sans);font-weight:800;color:#fff;background:var(--accent)}
+.point > div{min-width:0}
+/* loops */
+.loop-badge{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;color:#fff;font-weight:800;font-family:var(--sans);margin-right:6px}
+/* phrase accordion */
+details.ph{background:#fff;border:1px solid rgba(14,26,43,.1);border-radius:14px;margin:10px 0;overflow:hidden;transition:box-shadow .25s}
+details.ph[open]{box-shadow:0 8px 22px -14px rgba(14,26,43,.5)}
+details.ph summary{cursor:pointer;list-style:none;padding:12px 16px;display:flex;align-items:center;gap:10px;font-weight:800}
+details.ph summary::-webkit-details-marker{display:none}
+details.ph summary .tag{margin-left:auto;font-family:var(--sans);font-size:.75rem;color:var(--muted);font-weight:600}
+details.ph summary::after{content:"+";font-family:var(--sans);font-size:1.2rem;color:var(--gold);transition:transform .25s}
+details.ph[open] summary::after{transform:rotate(45deg)}
+details.ph .body{padding:0 16px 14px}
+/* Q&A */
+.qa{counter-reset:q}
+.qa details{background:#fff;border-radius:14px;margin:10px 0;border:1px solid rgba(14,26,43,.1);border-left:5px solid var(--violet)}
+.qa summary{cursor:pointer;padding:12px 16px;font-weight:800;list-style:none}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::before{counter-increment:q;content:"Q" counter(q);font-family:var(--sans);background:var(--violet);color:#fff;border-radius:8px;padding:1px 8px;margin-right:8px;font-size:.85em}
+.qa .ans{padding:0 16px 14px}
+.qa .ans::before{content:"答案分析";display:inline-block;font-family:var(--sans);font-size:.75rem;font-weight:800;color:var(--life);border:1px solid var(--life);border-radius:6px;padding:0 6px;margin-bottom:4px}
+/* memorize */
+.mem{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.mem .m{border-radius:16px;padding:16px;color:#fff;min-width:0}
+.mem .m b{font-size:1.6rem;display:block;font-family:var(--sans)}
+.flip{perspective:900px}
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+/* animations */
+@keyframes flow{to{stroke-dashoffset:-40}}
+@keyframes flick{0%,100%{transform:scaleY(1) translateY(0)}50%{transform:scaleY(1.12) translateY(-2px)}}
+@keyframes shimmer{0%{opacity:.35}50%{opacity:1}100%{opacity:.35}}
+@keyframes drop{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(26px);opacity:0}}
+.flowline{stroke-dasharray:10 10;animation:flow 1.4s linear infinite}
+.flame{transform-origin:50% 100%;transform-box:fill-box;animation:flick 1.2s ease-in-out infinite}
+.flame.d2{animation-delay:.3s}.flame.d3{animation-delay:.6s}
+.shim{animation:shimmer 2.6s ease-in-out infinite}
+.dropa{animation:drop 1.8s ease-in infinite;transform-box:fill-box}
+.dropa.d2{animation-delay:.6s}.dropa.d3{animation-delay:1.2s}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+.totop{position:fixed;right:16px;bottom:16px;z-index:40;width:46px;height:46px;border-radius:50%;border:0;background:var(--ink);color:#fff;box-shadow:var(--shadow);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s}
+.totop.show{opacity:1;pointer-events:auto}
+footer{font-family:var(--sans);font-size:.82rem;color:var(--muted);text-align:center;padding:20px 10px 40px}
+ul.clean{padding-left:1.2em;margin:.4em 0}
+ul.clean li{margin:.25em 0}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+@media (max-width:480px){body{font-size:16px}.hdr .brand small{display:none}.btn .lbl{display:none}}
+@media print{.hdr,.toc,.totop,#progress,.scrim{display:none!important}.reveal{opacity:1;transform:none}section.card{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <defs>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.5C9 7.5 5.5 11 5.5 15a6.5 6.5 0 0013 0c0-4-3.5-7.5-6.5-12.5z" fill="currentColor"/></symbol>
+  <symbol id="i-rock" viewBox="0 0 24 24"><path d="M3 19l3-8 4-3 5 1 4 4 2 6z" fill="currentColor"/><path d="M12 13c0 2 1 3 1 6" stroke="#5fb8e6" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="i-tent" viewBox="0 0 24 24"><path d="M12 3L2 20h20L12 3zm0 5l5 10h-3l-2-5-2 5H7l5-10z" fill="currentColor"/></symbol>
+  <symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 2c1 4 5 6 5 11a5 5 0 01-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-10z" fill="currentColor"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h6a2 2 0 012 2v14a2 2 0 00-2-2H4zM20 4h-6a2 2 0 00-2 2v14a2 2 0 012-2h6z" fill="currentColor"/></symbol>
+  <symbol id="i-cross" viewBox="0 0 24 24"><path d="M10 2h4v6h6v4h-6v10h-4V12H4V8h6z" fill="currentColor"/></symbol>
+  <symbol id="i-dove" viewBox="0 0 24 24"><path d="M3 13c4 0 6-2 8-5 1 3 3 4 5 4l5-3-2 5c-1 3-4 5-8 5H6l3-2c-3 0-5-1-6-4z" fill="currentColor"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+  <symbol id="i-loop" viewBox="0 0 24 24"><path d="M12 4a8 8 0 107.4 5" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M20 3v6h-6" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="i-q" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M9.5 9a2.5 2.5 0 015 0c0 2-2.5 2-2.5 4M12 17h.01" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7L18.3 22 12 18l-6.3 4 1.6-7.7L2 9.6 9 9z" fill="currentColor"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 018-3 4.5 4.5 0 018 3c0 6-8 11-8 11z" fill="currentColor"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="12" r="4.5" stroke="currentColor" stroke-width="2.4" fill="none"/><path d="M12 12h10M18 12v4M21 12v3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><circle cx="12" cy="9" r="7" fill="currentColor"/><rect x="11" y="14" width="2" height="8" fill="currentColor"/></symbol>
+  <symbol id="i-cup" viewBox="0 0 24 24"><path d="M5 3h14l-2 8a5 5 0 01-10 0zM12 16v4M8 21h8" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M6 6h12" stroke="#5fb8e6" stroke-width="2"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13" stroke="currentColor" stroke-width="2.2" fill="none"/><circle cx="6.5" cy="18" r="2.8" fill="currentColor"/><circle cx="17.5" cy="16" r="2.8" fill="currentColor"/></symbol>
+  <symbol id="i-light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4M4 4l3 3M17 17l3 3M4 20l3-3M17 7l3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="4" cy="6" r="1.6" fill="currentColor"/><circle cx="4" cy="12" r="1.6" fill="currentColor"/><circle cx="4" cy="18" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="i-crown" viewBox="0 0 24 24"><path d="M3 7l5 4 4-7 4 7 5-4-2 12H5z" fill="currentColor"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="3.2" fill="currentColor"/></symbol>
+ </defs>
+</svg>
+
+<header class="hdr">
+  <button class="btn" id="tocBtn" aria-controls="toc" aria-expanded="true" title="显示/隐藏目录"><svg><use href="#i-list"/></svg><span class="lbl">目录</span></button>
+  <div class="brand">在住棚节的最后一天耶稣宣告了五旬节的应许<small>约7:37-39 · 主日讲章 v1</small></div>
+  <button class="btn" id="expandAll" title="展开/收起所有精读与讨论"><svg><use href="#i-eye"/></svg><span class="lbl">全部展开</span></button>
+</header>
+
+<div class="layout">
+<nav class="toc" id="toc" aria-label="目录">
+  <h4>目录 · Contents</h4>
+  <ol>
+    <li><a href="#hero"><span class="dot" style="background:var(--ink)"></span>封面与三个要点</a></li>
+    <li><a href="#liturgy"><span class="dot" style="background:var(--gold)"></span>礼拜程序与诗歌</a></li>
+    <li><a href="#text"><span class="dot" style="background:var(--gold)"></span>证经与读经</a></li>
+    <li><a href="#background"><span class="dot" style="background:var(--ink2)"></span>一、真实背景</a>
+      <ol><li><a href="#bg-author">作者·受众·年代·地点</a></li><li><a href="#bg-why">约翰为什么写</a></li></ol></li>
+    <li><a href="#setting"><span class="dot" style="background:var(--crimson)"></span>二、约7的处境与上下文</a>
+      <ol><li><a href="#setting-flow">约5–8章节期序列</a></li><li><a href="#setting-map">耶路撒冷示意地图</a></li></ol></li>
+    <li><a href="#feast"><span class="dot" style="background:var(--life)"></span>三、住棚节与圣殿礼仪</a>
+      <ol><li><a href="#feast-timeline">八日时间轴</a></li><li><a href="#feast-debate">“最大之日”是第几日？</a></li></ol></li>
+    <li><a href="#essence"><span class="dot" style="background:var(--gold)"></span>四、本质核心</a></li>
+    <li><a href="#wholebible"><span class="dot" style="background:var(--water)"></span>五、整本圣经中的位置</a>
+      <ol><li><a href="#wb-flow">活水之河流程图</a></li><li><a href="#wb-wild">旷野磐石示意图</a></li></ol></li>
+    <li><a href="#zoom"><span class="dot" style="background:var(--violet)"></span>六、局部逐句精读</a></li>
+    <li><a href="#head1"><span class="dot" style="background:var(--crimson)"></span>要点一：这应许是给谁的？</a></li>
+    <li><a href="#head2"><span class="dot" style="background:var(--water)"></span>要点二：这应许包含什么？</a></li>
+    <li><a href="#head3"><span class="dot" style="background:var(--flame)"></span>要点三：这应许如何得着应验？</a></li>
+    <li><a href="#mindmap"><span class="dot" style="background:var(--violet)"></span>三要点思维导图</a></li>
+    <li><a href="#loops"><span class="dot" style="background:var(--gold)"></span>七、四重闭环 ①–④</a>
+      <ol><li><a href="#loop1">① 救赎历史闭环</a></li><li><a href="#loop2">② 圣约神学闭环</a></li><li><a href="#loop3">③ 经文圣经神学闭环</a></li><li><a href="#loop4">④ 罪–恩典–感恩闭环</a></li></ol></li>
+    <li><a href="#parallels"><span class="dot" style="background:var(--water)"></span>八、平行经文</a></li>
+    <li><a href="#discussion"><span class="dot" style="background:var(--violet)"></span>九、讨论与答案分析</a></li>
+    <li><a href="#expansion"><span class="dot" style="background:var(--life)"></span>十、拓展</a></li>
+    <li><a href="#memorize"><span class="dot" style="background:var(--flame)"></span>十一、速记总结</a></li>
+    <li><a href="#close"><span class="dot" style="background:var(--ink)"></span>结语：来，喝！</a></li>
+  </ol>
+</nav>
+<div class="scrim" id="scrim"></div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="sub">欧陆改革宗 · 主日讲章 · 2026-10-11 · v1</div>
+      <h1><span class="nw">在住棚节的最后一天</span><br><span class="nw">耶稣宣告了</span><span class="nw">五旬节的应许</span></h1>
+      <blockquote>“人若渴了，可以到我这里来喝。信我的人，就如经上所说：‘从他腹中要流出活水的江河来。’”<br><span style="font-family:var(--sans);font-size:.82rem;color:var(--gold2)">约翰福音 7:37-38（和合本）</span></blockquote>
+      <div class="meta"><span>证经：约7:37-39</span><span>读经：出17:1-7；约7:1-15</span><span>主日会众</span></div>
+      <div class="heads">
+        <a href="#head1"><b>① 给谁的？</b><small>人若渴了 · 信我的人</small></a>
+        <a href="#head2"><b>② 包含什么？</b><small>活水的江河 = 圣灵</small></a>
+        <a href="#head3"><b>③ 如何应验？</b><small>耶稣得荣耀 → 五旬节</small></a>
+      </div>
+    </div>
+    <div>
+      <svg viewBox="0 0 360 300" role="img" aria-label="磐石流出活水汇成江河，末端有五旬节火焰" style="width:100%;height:auto">
+        <defs>
+          <linearGradient id="hw" x1="0" x2="1"><stop offset="0" stop-color="#5fb8e6"/><stop offset="1" stop-color="#1f7fb8"/></linearGradient>
+          <radialGradient id="hg" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f6a33a" stop-opacity=".5"/><stop offset="1" stop-color="#f6a33a" stop-opacity="0"/></radialGradient>
+        </defs>
+        <path d="M20 150 L60 95 L110 80 L150 110 L165 160 Z" fill="#5a4a3a" stroke="#e2c178" stroke-width="2"/>
+        <path d="M70 110 L95 100 M110 95 L128 112" stroke="#8a7458" stroke-width="3"/>
+        <path d="M150 140 C185 150 200 190 240 205 S320 230 345 260" stroke="url(#hw)" stroke-width="16" fill="none" stroke-linecap="round" opacity=".85"/>
+        <path class="flowline" d="M150 140 C185 150 200 190 240 205 S320 230 345 260" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+        <circle class="dropa" cx="152" cy="132" r="4" fill="#5fb8e6"/><circle class="dropa d2" cx="158" cy="132" r="3" fill="#5fb8e6"/><circle class="dropa d3" cx="146" cy="134" r="3" fill="#5fb8e6"/>
+        <path d="M250 240 q8 -10 0 -24" stroke="#2f8a4e" stroke-width="3" fill="none"/><circle cx="250" cy="214" r="9" fill="#2f8a4e"/>
+        <path d="M300 252 q6 -8 0 -20" stroke="#2f8a4e" stroke-width="3" fill="none"/><circle cx="300" cy="228" r="8" fill="#2f8a4e"/>
+        <circle cx="300" cy="60" r="60" fill="url(#hg)"/>
+        <g transform="translate(262 30)">
+          <path class="flame" d="M18 60c-10 0-16-8-16-16 0-10 10-16 12-30 6 8 4 14 9 18 2-6 5-8 5-14 6 8 6 18 6 26 0 9-7 16-16 16z" fill="#e0661c"/>
+          <path class="flame d2" d="M44 60c-7 0-12-6-12-12 0-8 7-11 9-22 5 6 3 10 6 13 2-4 4-6 4-10 4 6 5 13 5 19 0 7-5 12-12 12z" fill="#f6a33a"/>
+          <path class="flame d3" d="M66 60c-6 0-10-5-10-10 0-6 6-10 7-18 4 5 3 8 5 10 2-3 3-5 3-8 3 5 4 10 4 15 0 6-4 11-9 11z" fill="#e0661c"/>
+        </g>
+        <text x="40" y="180" fill="#e2c178" font-size="13" font-family="sans-serif">磐石 · 出17</text>
+        <text x="200" y="285" fill="#5fb8e6" font-size="13" font-family="sans-serif">活水的江河 · 约7:38</text>
+        <text x="262" y="112" fill="#f6a33a" font-size="13" font-family="sans-serif">五旬节 · 徒2</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- LITURGY -->
+<section class="card reveal" id="liturgy" style="--accent:var(--gold)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-music"/></svg></span><div><div class="kicker">Liturgy</div><h2>礼拜程序与诗歌</h2></div></div>
+  <div class="grid">
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-music"/></svg>圣诗第16首</h4><p>按本堂诗本吟唱。我们以颂赞开始，承认今日的聚会不是我们召集自己，而是三一神召集祂的子民。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-drop"/></svg>韵诗第29篇</h4><p>诗29:3：“<span class="hl-w">耶和华的声音发在水上</span>。”在住棚节站着高声说话的那一位，正是那声音掌管众水的主。</p></div>
+    <div class="tile"><h4><svg style="color:var(--life)"><use href="#i-heart"/></svg>韵诗第30篇</h4><p>诗30:11：“<span class="hl">你已将我的哀哭变为跳舞</span>。”住棚节是欢乐的节期；圣灵把干渴的哀哭变成感恩的欢乐。</p></div>
+    <div class="tile"><h4><svg style="color:var(--flame)"><use href="#i-cup"/></svg>诗篇23篇</h4><p>“领我在<span class="hl-w">可安歇的水边</span>”（23:2），“使我的<span class="hl">福杯满溢</span>”（23:5）。好牧人（约10章）所赐的，正是满溢的生命。</p></div>
+  </div>
+  <p class="measure" style="font-size:.9rem;color:var(--muted)">（诗歌歌词以本堂诗本为准，此处只列出与证道相关的诗篇经文连结。）</p>
+</section>
+
+<!-- TEXT -->
+<section class="card reveal" id="text" style="--accent:var(--gold)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-book"/></svg></span><div><div class="kicker">Scripture</div><h2>证经：约翰福音 7:37-39</h2></div></div>
+  <blockquote class="verse"><span class="sup">37</span>节期的末日，就是最大之日，耶稣站着高声说：“<span class="hl-r">人若渴了</span>，可以<span class="hl">到我这里来喝</span>。<span class="sup">38</span><span class="hl">信我的人</span>，就如经上所说：‘从他腹中要流出<span class="hl-w">活水的江河</span>来。’”<span class="sup">39</span>耶稣这话是指着信他之人要受<span class="hl-w">圣灵</span>说的。那时还没有赐下圣灵来，因为耶稣<span class="hl">尚未得着荣耀</span>。<cite>约翰福音 7:37-39 · 和合本</cite></blockquote>
+  <div class="grid g2">
+    <div class="tile"><h4><svg style="color:var(--crimson)"><use href="#i-rock"/></svg>旧约读经：出埃及记 17:1-7</h4><p>利非订无水，百姓争闹，试探耶和华。神吩咐摩西：“<span class="hl-w">你要击打磐石，从磐石里必有水流出来，使百姓可以喝</span>。”（17:6）地名叫<span class="chip c-sin">玛撒</span><span class="chip c-sin">米利巴</span>（17:7）。</p></div>
+    <div class="tile"><h4><svg style="color:var(--ink2)"><use href="#i-tent"/></svg>新约读经：约翰福音 7:1-15</h4><p>犹太人想要杀他（7:1）；“<span class="hl-r">连他的弟兄说这话，是因为不信他</span>”（7:5）；耶稣说：“<span class="hl">我的时候还没有到</span>”（7:6）；他暗暗上去（7:10）；节期过了一半，上殿教训人（7:14）。</p></div>
+  </div>
+</section>
+<!-- BACKGROUND -->
+<section class="card reveal" id="background" style="--accent:var(--ink2)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-book"/></svg></span><div><div class="kicker">Part I · Historical Background</div><h2>一、真实背景：作者、受众、年代、处境</h2></div></div>
+  <div class="grid" id="bg-author">
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-crown"/></svg>作者</h4><p>福音书本身称作者为“<span class="hl">耶稣所爱的那门徒</span>”（约21:20、24），他亲眼见证（19:35）。早期教会的传统（如爱任纽）认为就是<b>使徒约翰</b>，西庇太的儿子。近代学者对作者问题有讨论，但改革宗教会一贯接受这一传统见证。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-map"/></svg>地点与年代</h4><p>传统认为写于<b>以弗所</b>，时间约在<b>主后85–95年</b>。这时圣殿已在主后70年被毁，住棚节的圣殿礼仪已不能再举行——读者读到约7章时，是在回望一个已经消失的圣殿。</p></div>
+    <div class="tile"><h4><svg style="color:var(--life)"><use href="#i-heart"/></svg>受众</h4><p>多半是小亚细亚一带由犹太人和外邦人组成的教会。他们需要知道：圣殿没有了，节期停了，但节期所指向的那一位活着，而且祂的灵就住在教会中间。</p></div>
+    <div class="tile"><h4><svg style="color:var(--crimson)"><use href="#i-eye"/></svg>当时处境（约7章）</h4><p>约在耶稣受难前大约半年（住棚节在秋天，逾越节在春天）。犹太人想要杀他（7:1），众人议论纷纷，弟兄不信，祭司长和法利赛人差差役要捉拿他（7:32）。</p></div>
+  </div>
+  <div class="key" id="bg-why"><b>约翰为什么写？</b>“但记这些事要叫你们信耶稣是基督，是神的儿子，并且叫你们信了他，就可以因他的名得生命。”（约20:31）——约7:37-39正是这个目的的缩影：<span class="chip c-gold">信</span>→<span class="chip c-water">喝</span>→<span class="chip c-life">生命</span>。</div>
+  <div class="note">本讲章关于第二圣殿住棚节礼仪（取水礼、灯光礼）的细节，主要来自后来成书的拉比文献《密西拿·住棚节》（Mishnah Sukkah，约主后200年编成）。这些记载多半反映较早的做法，但不能把每个细节都当作第一世纪确定的事实。以下凡涉及此类细节，均以“据拉比文献记载”标明。</div>
+</section>
+
+<!-- SETTING -->
+<section class="card reveal" id="setting" style="--accent:var(--crimson)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-tent"/></svg></span><div><div class="kicker">Part II · Literary Context</div><h2>二、约翰福音7章的处境与上下文</h2></div></div>
+  <p class="measure">约翰福音的中段是一串<b>犹太节期</b>。约翰有意把耶稣放在节期中间，让我们看到：每一个节期所预表的，耶稣都是实体。</p>
+  <div class="tbl" id="setting-flow"><table>
+    <thead><tr><th>经文</th><th>节期</th><th>节期的象征</th><th>耶稣的宣告</th></tr></thead>
+    <tbody>
+      <tr><td>约5章</td><td>“犹太人的一个节期”（5:1）</td><td>安息日</td><td>“我父做事直到如今，我也做事。”（5:17）</td></tr>
+      <tr><td>约6章</td><td>逾越节近了（6:4）</td><td>旷野吗哪</td><td>“我就是生命的粮。”（6:35）</td></tr>
+      <tr><td>约7:1–8:59</td><td><span class="chip c-life">住棚节</span>（7:2）</td><td>旷野的棚、水、光</td><td><span class="chip c-water">活水</span>（7:37-39）<span class="chip c-gold">世界的光</span>（8:12）</td></tr>
+      <tr><td>约10:22</td><td>修殿节</td><td>圣殿重新献给神</td><td>“我与父原为一。”（10:30）</td></tr>
+    </tbody></table></div>
+  <div class="grid">
+    <div class="tile" style="border-top:4px solid var(--crimson)"><h4>7:1-13 不信与隐藏</h4><p>弟兄催他“显明给世人看”（7:4），却“不信他”（7:5）。耶稣说“我的时候还没有到”（7:6）。他不是明去，似乎是暗去的（7:10）。</p></div>
+    <div class="tile" style="border-top:4px solid var(--gold)"><h4>7:14-36 节期中的教训</h4><p>节期过了一半，他上殿教训人。众人希奇：“这个人没有学过，怎么明白书呢？”（7:15）他说：“我的教训不是我自己的，乃是那差我来者的。”（7:16）</p></div>
+    <div class="tile" style="border-top:4px solid var(--water)"><h4>7:37-39 末日的宣告</h4><p>在节期最高潮，他公开、高声地邀请干渴的人，并应许活水的江河——这是本章的顶点。</p></div>
+    <div class="tile" style="border-top:4px solid var(--violet)"><h4>7:40-52 分裂与反对</h4><p>“于是众人因着耶稣起了纷争。”（7:43）差役说：“从来没有像他这样说话的。”（7:46）同一个邀请，叫人或信、或硬心。</p></div>
+    <div class="tile" style="border-top:4px solid var(--flame)"><h4>8:12 世界的光</h4><p>“我是世界的光。跟从我的，就不在黑暗里走，必要得着生命的光。”水与光，是这次住棚节宣告的两大主题。</p></div>
+  </div>
+
+  <h3 id="setting-map" style="margin-top:22px">耶路撒冷与圣殿山示意地图（不按比例）</h3>
+  <figure class="fig" style="--minw:560px">
+    <svg viewBox="0 0 720 470" role="img" aria-label="耶路撒冷示意地图：圣殿山、妇女院、西罗亚池、大卫城、汲沦谷、橄榄山">
+      <defs>
+        <linearGradient id="valley" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d9cba6"/><stop offset="1" stop-color="#c4b083"/></linearGradient>
+        <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#b8892b" stroke-width="1" opacity=".35"/></pattern>
+        <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f7fb8"/></marker>
+      </defs>
+      <rect width="720" height="470" fill="#f7f1e3"/>
+      <!-- valleys -->
+      <path d="M470 10 C480 140 470 260 440 360 C420 420 380 455 330 465" stroke="url(#valley)" stroke-width="34" fill="none" opacity=".9"/>
+      <text x="492" y="250" font-size="14" fill="#7c5b12" font-family="sans-serif" transform="rotate(80 492 250)">汲沦谷 Kidron</text>
+      <path d="M90 60 C110 230 160 360 260 430 C290 450 320 460 330 465" stroke="url(#valley)" stroke-width="28" fill="none" opacity=".8"/>
+      <text x="96" y="300" font-size="14" fill="#7c5b12" font-family="sans-serif">欣嫩子谷 Hinnom</text>
+      <!-- Mt of Olives -->
+      <path d="M560 30 C620 60 690 120 700 220 L700 30 Z" fill="#c9d8b7"/>
+      <text x="590" y="110" font-size="15" fill="#2f6a3e" font-family="sans-serif">橄榄山</text>
+      <!-- city walls schematic -->
+      <path d="M150 70 L440 60 L440 250 L405 410 L345 430 L250 360 L160 230 Z" fill="url(#hatch)" stroke="#8a7458" stroke-width="2.5" stroke-dasharray="6 4"/>
+      <!-- temple mount -->
+      <rect x="300" y="70" width="135" height="160" rx="6" fill="#efe1bb" stroke="#b8892b" stroke-width="3"/>
+      <text x="312" y="92" font-size="14" font-weight="700" fill="#7c5b12" font-family="sans-serif">圣殿山</text>
+      <rect x="350" y="115" width="38" height="60" fill="#b8892b"/>
+      <text x="340" y="196" font-size="12" fill="#0e1a2b" font-family="sans-serif">圣殿 / 祭坛</text>
+      <rect x="352" y="205" width="40" height="18" fill="#f6a33a" opacity=".85"/>
+      <path d="M352 214 L300 214" stroke="#a8460b" stroke-width="1.2"/><text x="296" y="218" font-size="12" fill="#a8460b" font-family="sans-serif" text-anchor="end">妇女院（灯光礼）</text>
+      <circle class="shim" cx="372" cy="214" r="14" fill="#f6a33a" opacity=".5"/>
+      <!-- city of David -->
+      <path d="M330 240 L400 245 L395 380 L355 410 L325 360 Z" fill="#e8dcc0" stroke="#8a7458" stroke-width="1.5"/>
+      <text x="335" y="320" font-size="13" fill="#5d4a2e" font-family="sans-serif">大卫城</text>
+      <!-- Siloam -->
+      <ellipse cx="350" cy="420" rx="30" ry="14" fill="#5fb8e6" stroke="#1f7fb8" stroke-width="2"/>
+      <text x="224" y="455" font-size="14" font-weight="700" fill="#145f8c" font-family="sans-serif">西罗亚池（取水处）</text>
+      <!-- Gihon -->
+      <circle cx="420" cy="275" r="8" fill="#1f7fb8"/>
+      <text x="432" y="279" font-size="12" fill="#145f8c" font-family="sans-serif">基训泉</text>
+      <!-- procession -->
+      <path class="flowline" d="M355 405 C390 360 400 300 380 228" stroke="#1f7fb8" stroke-width="3.5" fill="none" marker-end="url(#arw)"/>
+      <text x="408" y="345" font-size="12" fill="#145f8c" font-family="sans-serif">取水队伍</text>
+      <text x="408" y="361" font-size="12" fill="#145f8c" font-family="sans-serif">（据拉比文献）</text>
+      <!-- upper city -->
+      <text x="190" y="160" font-size="13" fill="#5d4a2e" font-family="sans-serif">上城</text>
+      <!-- compass -->
+      <g transform="translate(640 400)"><circle r="26" fill="#fff" stroke="#b8892b"/><path d="M0 -20L6 0L0 20L-6 0Z" fill="#0e1a2b"/><text x="-5" y="-28" font-size="12" font-family="sans-serif">北</text></g>
+      <text x="20" y="460" font-size="11" fill="#5d6676" font-family="sans-serif">示意图，不按比例；仅帮助理解位置关系</text>
+    </svg>
+    <figcaption>据《密西拿·住棚节》记载：节期清晨祭司从西罗亚池以金壶取水，上到圣殿，在祭坛浇奠；夜间在妇女院点起大灯台欢庆。</figcaption>
+  </figure>
+</section>
+
+<!-- FEAST -->
+<section class="card reveal" id="feast" style="--accent:var(--life)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-tent"/></svg></span><div><div class="kicker">Part III · The Feast</div><h2>三、住棚节：律法中的规定与圣殿中的礼仪</h2></div></div>
+  <div class="grid">
+    <div class="tile"><h4><svg style="color:var(--life)"><use href="#i-tent"/></svg>利23:33-43</h4><p>七月十五日起守节七日；“<span class="hl">第八日当守圣会</span>”（23:36）。“你们要住在棚里七日”（23:42），要记念神领以色列出埃及时，使他们住在棚里。</p></div>
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-heart"/></svg>申16:13-15</h4><p>在禾场和酒醡收藏之后守节七日，全家连同寄居的、孤儿寡妇，都要在神所选择的地方<span class="chip c-gold">欢乐</span>。这是秋收感恩的节期。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-drop"/></svg>亚14:8、16-19</h4><p>“那日，必有活水从耶路撒冷出来”（14:8）。列国要上来守住棚节；不上来的，“<span class="hl-r">必无雨降在他们的地上</span>”（14:17）。住棚节与<b>雨水、活水、列国</b>连在一起。</p></div>
+  </div>
+  <h3 id="feast-timeline" style="margin-top:20px">住棚节八日时间轴</h3>
+  <figure class="fig" style="--minw:640px">
+    <svg viewBox="0 0 800 210" role="img" aria-label="住棚节八日时间轴">
+      <line x1="40" y1="100" x2="770" y2="100" stroke="#0e1a2b" stroke-width="3"/>
+      <g font-family="sans-serif" font-size="13" text-anchor="middle">
+        <g fill="#2f8a4e"><circle cx="70" cy="100" r="16"/><circle cx="160" cy="100" r="14"/><circle cx="250" cy="100" r="14"/><circle cx="340" cy="100" r="14"/><circle cx="430" cy="100" r="14"/><circle cx="520" cy="100" r="14"/></g>
+        <circle cx="610" cy="100" r="18" fill="#1f7fb8"/><circle cx="710" cy="100" r="20" fill="#b8892b"/>
+        <g fill="#fff" font-weight="700"><text x="70" y="105">1</text><text x="160" y="105">2</text><text x="250" y="105">3</text><text x="340" y="105">4</text><text x="430" y="105">5</text><text x="520" y="105">6</text><text x="610" y="105">7</text><text x="710" y="105">8</text></g>
+        <text x="70" y="60" fill="#0e1a2b">七月十五日</text><text x="70" y="76" fill="#2f8a4e">圣会·开始住棚</text>
+        <text x="340" y="60" fill="#5d6676">7:14 节期过了一半</text><text x="340" y="76" fill="#a3243b">耶稣上殿教训人</text>
+        <text x="610" y="60" fill="#1f7fb8">第七日？</text><text x="610" y="76" fill="#1f7fb8">节期高潮</text>
+        <text x="710" y="60" fill="#7c5b12">第八日？</text><text x="710" y="76" fill="#7c5b12">利23:36 圣会</text>
+        <rect x="45" y="128" width="590" height="26" rx="13" fill="#dcf0fb"/><text x="340" y="146" fill="#145f8c">据拉比文献：七日每日清晨取水浇奠；夜间妇女院灯光欢庆</text>
+        <rect x="560" y="166" width="200" height="30" rx="15" fill="#0e1a2b"/><text x="660" y="186" fill="#e2c178" font-weight="700">“节期的末日，就是最大之日”</text>
+      </g>
+    </svg>
+  </figure>
+  <div class="hard" id="feast-debate"><b>“最大之日”是第七日还是第八日？</b>两种看法都有解经家支持。<br>
+    <span class="chip c-water">第七日说</span>：七日是节期本身（申16:13），而据拉比文献，第七日的礼仪最隆重（如绕祭坛的游行次数最多）；耶稣就在取水礼最高潮时宣告“到我这里来喝”。<br>
+    <span class="chip c-gold">第八日说</span>：利23:36、民29:35把第八日定为圣会，是整个节期真正的“末日”；若按《密西拿》所说取水礼只行七日，那么耶稣是在取水礼停止之后的那天宣告——仪式的水停了，真正的活水来了。<br>
+    <b>讲台结论</b>：无论哪一天，约翰要我们看见的是同一件事：<span class="hl">在节期最高潮，耶稣把众人的眼目从仪式转向他自己</span>。不必在讲台上把不确定的事说成确定。</div>
+</section>
+
+<!-- ESSENCE -->
+<section class="card reveal" id="essence" style="--accent:var(--gold)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-key"/></svg></span><div><div class="kicker">Part IV · Essence</div><h2>四、本质核心：一句话抓住全段</h2></div></div>
+  <blockquote class="verse" style="font-size:1.18em;text-align:center"><b>住棚节记念旷野的磐石之水、盼望末日的活水江河；<br>耶稣在节期最高潮宣告：<span class="hl-w">这水就是圣灵，源头就是我；</span><br><span class="hl">我得荣耀之后，必将圣灵赐给一切渴了、信我的人。</span></b></blockquote>
+  <div class="grid">
+    <div class="tile"><h4><svg style="color:var(--crimson)"><use href="#i-drop"/></svg>人的需要</h4><p><span class="chip c-sin">干渴</span>不是礼仪能够满足的。节期可以年年守，人心照样干渴。</p></div>
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-cross"/></svg>基督的身份</h4><p>“到<b>我</b>这里来”——耶稣把自己放在磐石、圣殿、泉源的位置上。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-dove"/></svg>应许的内容</h4><p><span class="chip c-water">活水的江河</span>=圣灵自己，不只是圣灵的某种恩赐。</p></div>
+    <div class="tile"><h4><svg style="color:var(--flame)"><use href="#i-fire"/></svg>应验的时间</h4><p>“耶稣尚未得着荣耀”——十架、复活、升天之后，在<span class="chip c-fire">五旬节</span>浇灌下来。</p></div>
+  </div>
+  <div class="key">为什么题目叫“<b>住棚节</b>的最后一天宣告<b>五旬节</b>的应许”？因为约7:39把这句话的应验明确推到“耶稣得着荣耀”之后；而徒2:33正说：他“既被神的右手高举，又从父受了所应许的圣灵，就把你们所看见所听见的，浇灌下来”。秋天的节期，宣告了下一个春夏之交的五旬节。</div>
+</section>
+<!-- WHOLE BIBLE -->
+<section class="card reveal" id="wholebible" style="--accent:var(--water)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-drop"/></svg></span><div><div class="kicker">Part V · Whole-Bible Placement</div><h2>五、跳出框架：这条河在整本圣经中流过哪里？</h2></div></div>
+  <p class="measure">先站高处看全局。圣经从一条河开始，也以一条河结束。约7:37-39站在这条河的<b>转弯处</b>：从预表转向实体，从应许转向浇灌。</p>
+  <div class="tbl"><table>
+    <thead><tr><th>阶段</th><th>经文</th><th>水的形象</th><th>指向</th></tr></thead>
+    <tbody>
+      <tr><td><span class="chip c-life">创造</span></td><td>创2:10</td><td>“有河从伊甸流出来滋润那园子”</td><td>神与人同在之处有生命之水</td></tr>
+      <tr><td><span class="chip c-sin">堕落后·旷野</span></td><td>出17:1-7；诗78:15-16</td><td>击打磐石出水；“叫水如江河下流”</td><td>神在百姓争闹中仍赐水；林前10:4“那磐石就是基督”</td></tr>
+      <tr><td><span class="chip c-gold">节期</span></td><td>利23:33-43</td><td>住棚：记念旷野漂流与供应</td><td>神住在百姓中间（约1:14“住在我们中间”）</td></tr>
+      <tr><td><span class="chip c-water">先知应许</span></td><td>赛12:3；44:3；55:1</td><td>救恩之泉；“我要将我的灵浇灌你的后裔”</td><td>水与灵并列：新约的应许</td></tr>
+      <tr><td><span class="chip c-water">圣殿之河</span></td><td>结47:1-12；亚14:8</td><td>水从殿的门槛下流出，越流越深；“必有活水从耶路撒冷出来”</td><td>末日圣殿成为生命的源头</td></tr>
+      <tr><td><span class="chip c-fire">浇灌之应许</span></td><td>珥2:28</td><td>“我要将我的灵浇灌凡有血气的”</td><td>徒2:16-17 彼得说“这正是”</td></tr>
+      <tr><td><span class="chip c-ink">基督</span></td><td>约4:10-14；7:37-39</td><td>“我所赐的水要在他里头成为泉源，直涌到永生”</td><td>耶稣自己是赐水者</td></tr>
+      <tr><td><span class="chip c-sin">十字架</span></td><td>约19:34</td><td>“随即有血和水流出来”</td><td>被击打的磐石；荣耀的时刻</td></tr>
+      <tr><td><span class="chip c-fire">五旬节</span></td><td>徒2:1-4、33</td><td>圣灵浇灌</td><td>应许的应验</td></tr>
+      <tr><td><span class="chip c-life">新造</span></td><td>启22:1-2、17</td><td>“生命水的河……从神和羔羊的宝座流出来”；“口渴的人也当来”</td><td>闭环回到伊甸，且更荣耀</td></tr>
+    </tbody></table></div>
+
+  <h3 id="wb-flow">流程图：从磐石到新天新地的生命河</h3>
+  <figure class="fig" style="--minw:640px">
+    <svg viewBox="0 0 820 300" role="img" aria-label="流程图：伊甸之河、磐石、圣殿之河、基督得荣耀、五旬节、教会、新造生命河">
+      <defs><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1f7fb8"/></marker></defs>
+      <g font-family="sans-serif" text-anchor="middle">
+        <g stroke="#1f7fb8" stroke-width="3" fill="none" marker-end="url(#ar2)">
+          <path class="flowline" d="M150 70 H200"/><path class="flowline" d="M350 70 H400"/><path class="flowline" d="M550 70 H600"/>
+          <path class="flowline" d="M700 100 C760 140 760 190 700 210"/>
+          <path class="flowline" d="M600 230 H550"/><path class="flowline" d="M400 230 H350"/><path class="flowline" d="M200 230 H150"/>
+        </g>
+        <rect x="20" y="40" width="130" height="60" rx="14" fill="#dff2e5" stroke="#2f8a4e" stroke-width="2"/><text x="85" y="66" font-size="15" font-weight="700" fill="#22673a">伊甸之河</text><text x="85" y="86" font-size="12" fill="#22673a">创2:10</text>
+        <rect x="200" y="40" width="150" height="60" rx="14" fill="#f8dfe3" stroke="#a3243b" stroke-width="2"/><text x="275" y="66" font-size="15" font-weight="700" fill="#a3243b">磐石出水</text><text x="275" y="86" font-size="12" fill="#a3243b">出17 · 林前10:4</text>
+        <rect x="400" y="40" width="150" height="60" rx="14" fill="#dcf0fb" stroke="#1f7fb8" stroke-width="2"/><text x="475" y="66" font-size="15" font-weight="700" fill="#145f8c">圣殿之河</text><text x="475" y="86" font-size="12" fill="#145f8c">结47 · 亚14:8</text>
+        <rect x="600" y="40" width="190" height="60" rx="14" fill="#0e1a2b"/><text x="695" y="66" font-size="15" font-weight="700" fill="#e2c178">基督得荣耀</text><text x="695" y="86" font-size="12" fill="#fff">十架·复活·升天 约19:34</text>
+        <rect x="600" y="200" width="190" height="60" rx="14" fill="#fde7d3" stroke="#e0661c" stroke-width="2"/><text x="695" y="226" font-size="15" font-weight="700" fill="#a8460b">五旬节浇灌</text><text x="695" y="246" font-size="12" fill="#a8460b">徒2:33</text>
+        <rect x="400" y="200" width="150" height="60" rx="14" fill="#f6ebcf" stroke="#b8892b" stroke-width="2"/><text x="475" y="226" font-size="15" font-weight="700" fill="#7c5b12">教会成为渠道</text><text x="475" y="246" font-size="12" fill="#7c5b12">约7:38 · 4:14</text>
+        <rect x="200" y="200" width="150" height="60" rx="14" fill="#ebe4f7" stroke="#6b4fa0" stroke-width="2"/><text x="275" y="226" font-size="15" font-weight="700" fill="#6b4fa0">万民来喝</text><text x="275" y="246" font-size="12" fill="#6b4fa0">赛55:1 · 徒2:39</text>
+        <rect x="20" y="200" width="130" height="60" rx="14" fill="#dff2e5" stroke="#2f8a4e" stroke-width="2"/><text x="85" y="226" font-size="15" font-weight="700" fill="#22673a">生命水的河</text><text x="85" y="246" font-size="12" fill="#22673a">启22:1-2</text>
+        <path d="M85 195 V105" stroke="#2f8a4e" stroke-width="2" stroke-dasharray="4 5"/><text x="120" y="155" font-size="12" fill="#22673a">闭环：伊甸→新造</text>
+      </g>
+    </svg>
+  </figure>
+
+  <h3 id="wb-wild">旷野示意图：利非订的磐石（地点按传统，不确定）</h3>
+  <figure class="fig" style="--minw:520px">
+    <svg viewBox="0 0 640 300" role="img" aria-label="出埃及路线示意：埃及、红海、玛拉、以琳、汛的旷野、利非订、西奈">
+      <rect width="640" height="300" fill="#f3e6c6"/>
+      <path d="M150 0 L210 120 L250 300 L330 300 L250 110 L215 0Z" fill="#9fd0ec"/>
+      <path d="M460 0 L520 110 L560 300 L600 300 L545 100 L500 0Z" fill="#9fd0ec"/>
+      <g font-family="sans-serif" font-size="13">
+        <text x="40" y="60" fill="#5d4a2e" font-weight="700">埃及</text>
+        <text x="168" y="120" fill="#145f8c" transform="rotate(62 168 120)">苏伊士湾</text>
+        <text x="505" y="150" fill="#145f8c" transform="rotate(68 505 150)">亚喀巴湾</text>
+        <path d="M90 70 C160 70 200 90 245 120 C280 150 300 180 330 200 C360 215 380 225 400 235" stroke="#a3243b" stroke-width="3" fill="none" stroke-dasharray="7 6"/>
+        <circle cx="245" cy="120" r="6" fill="#2f8a4e"/><text x="255" y="114" fill="#22673a">玛拉 · 以琳（出15）</text>
+        <circle cx="300" cy="175" r="6" fill="#b8892b"/><text x="312" y="172" fill="#7c5b12">汛的旷野 · 吗哪（出16）</text>
+        <circle cx="365" cy="220" r="10" fill="#1f7fb8"/><text x="250" y="250" fill="#145f8c" font-weight="700">利非订 · 何烈的磐石（出17）</text>
+        <path d="M400 235 l25 -45 l25 45 z" fill="#5a4a3a"/><text x="440" y="270" fill="#0e1a2b" font-weight="700">西奈山（出19）</text>
+        <circle class="dropa" cx="365" cy="208" r="3" fill="#fff"/>
+        <text x="20" y="290" font-size="11" fill="#5d6676">示意图；西奈山与利非订的确切位置学界并无定论，此处按传统南西奈路线标示</text>
+      </g>
+    </svg>
+  </figure>
+  <div class="key">读经出17章与证经约7章，是同一幅画的两半：旷野里，<span class="chip c-sin">百姓争闹</span>，磐石被击打，水流出来；住棚节里，<span class="chip c-sin">众人纷争</span>，那将要被击打的基督站着说：“到我这里来喝。”诗78:15-16说神“使水从磐石涌出，叫水如江河下流”——“江河”一词正把出17与约7:38连起来。</div>
+</section>
+
+<!-- ZOOM -->
+<section class="card reveal" id="zoom" style="--accent:var(--violet)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-eye"/></svg></span><div><div class="kicker">Part VI · Close Reading</div><h2>六、再回到局部：逐句精读（点开展开）</h2></div></div>
+  <details class="ph"><summary><span class="chip c-gold">1</span>节期的末日，就是最大之日<span class="tag">时间</span></summary><div class="body"><p>约翰刻意标出时间：节期的最高潮。七天的棚、七天的水、七天的光（据拉比文献），都在这一天到达顶点。至于是第七日还是第八日，见<a href="#feast-debate">上文难点</a>。<b>神学要点</b>：当宗教活动最热闹的时候，人心可能最干渴。耶稣不是在人群散去后私下安慰几个人，而是在节期的中心宣告：节期所指的就是我。</p></div></details>
+  <details class="ph"><summary><span class="chip c-gold">2</span>耶稣站着高声说<span class="tag">姿态</span></summary><div class="body"><p>犹太教师通常坐着教训人（参路4:20；太5:1）。这里耶稣<b>站着</b>，并且<b>高声</b>说。约翰在关键宣告处用同一个“大声说”的动词（7:28；12:44；参1:15施洗约翰）。这是先知式的公开呼喊，正如赛55:1“你们一切干渴的都当就近水来”。几天前他“似乎是暗去的”（7:10），如今却公开呼喊——他的“时候”在神手中，不在弟兄的催促里。</p></div></details>
+  <details class="ph"><summary><span class="chip c-sin">3</span>人若渴了<span class="tag">对象</span></summary><div class="body"><p>邀请的条件只有一个：<span class="hl-r">渴</span>。不是“人若够格”，而是“人若缺乏”。渴是承认自己没有。出17章的以色列人也渴，但他们的渴变成了争闹与试探（17:2、7）；耶稣要我们的渴变成<b>来</b>。</p></div></details>
+  <details class="ph"><summary><span class="chip c-water">4</span>可以到我这里来喝<span class="tag">邀请</span></summary><div class="body"><p>“到<b>我</b>这里”——不是到西罗亚池，不是到祭坛，乃是到一位活的人这里。参约6:35：“到我这里来的，必定不饿；信我的，永远不渴。”在约翰笔下，<span class="chip c-water">来</span>、<span class="chip c-water">喝</span>、<span class="chip c-gold">信</span>是同一件事的三种说法。</p></div></details>
+  <details class="ph"><summary><span class="chip c-gold">5</span>信我的人<span class="tag">方法</span></summary><div class="body"><p>喝的方法就是信。约翰常用持续的“信”来描述真信心：不是一次口头表态，而是一直把自己交托给基督。这正对着7:5“连他的弟兄……不信他”：血缘的亲近不能代替信心。</p></div></details>
+  <details class="ph"><summary><span class="chip c-violet">6</span>就如经上所说<span class="tag">难点</span></summary><div class="body"><div class="hard">旧约中没有一处与“从他腹中要流出活水的江河来”逐字相同的经文。耶稣所说的“经上”，更可能是综合多处经文的主题。常被提出的背景有：结47:1-12（殿中流出的河）；亚14:8（活水从耶路撒冷出来）；赛12:3（救恩之泉）；赛44:3（浇灌水与灵）；赛55:1（干渴的都来）；出17:1-7、诗78:15-16（磐石出水如江河）。</div><p>这本身就是一个功课：耶稣读圣经是读<b>整本</b>的，他看见所有这些经文汇成一个应许，并且都在他身上应验（路24:27）。</p></div></details>
+  <details class="ph"><summary><span class="chip c-violet">7</span>从他腹中<span class="tag">难点</span></summary><div class="body"><p>“腹中”指人最深的里面。这个“他”是谁？见<a href="#head2">要点二</a>的详细分析：可以读作<span class="chip c-gold">从基督</span>，也可以读作<span class="chip c-water">从信徒</span>。改革宗的牧养结论是：<b>基督是源头，信徒是渠道</b>。</p></div></details>
+  <details class="ph"><summary><span class="chip c-water">8</span>活水的江河<span class="tag">内容</span></summary><div class="body"><p>“活水”在当时就是流动的泉水（相对于积存的死水），旧约也用来称呼神自己：“离弃我这活水的泉源”（耶2:13）。“江河”是复数——不是一杯，不是一滴，乃是丰盛、不断、往外流。</p></div></details>
+  <details class="ph"><summary><span class="chip c-fire">9</span>这话是指着信他之人要受圣灵说的<span class="tag">解释</span></summary><div class="body"><p>这是福音书作者亲自加的注解，让我们不会误解：活水不是新的仪式，不是神秘体验，而是<span class="hl-w">圣灵自己</span>。约翰事后回想（参2:22；12:16），才明白这话的意思。</p></div></details>
+  <details class="ph"><summary><span class="chip c-fire">10</span>那时还没有赐下圣灵来，因为耶稣尚未得着荣耀<span class="tag">时间表</span></summary><div class="body"><p>原文更直接，大意是“那时圣灵还没有”，和合本补上“赐下”，意思正确：不是说圣灵还不存在，而是说<b>新约时代圣灵的浇灌</b>还没有到来。在约翰福音中，“得荣耀”首先指十字架（12:23-24；13:31；17:1），也包括复活与归回父那里（17:5；20:17）。所以：十架 → 复活 → 升天 → 五旬节。参约16:7：“我若不去，保惠师就不到你们这里来。”</p></div></details>
+</section>
+<!-- HEAD 1 -->
+<section class="card reveal head-card" id="head1" style="--accent:var(--crimson)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-drop"/></svg></span><div><div class="kicker">Head 1 · To Whom?</div><h2>要点一：这应许是给谁的？</h2></div></div>
+  <p class="measure"><b>答案：给一切<span class="chip c-sin">渴了</span>而<span class="chip c-gold">来到基督面前相信</span>的人。</b>不是给自以为满足的人，也不是给只守节期的人。</p>
+  <div class="point"><span class="n">1</span><div><h3>给“渴了”的人——承认自己的缺乏</h3>
+    <p>住棚节是一个丰收、欢乐、灯火通明的节期。可是在最热闹的那一天，耶稣喊的却是“人若渴了”。宗教的热闹不等于心灵得着满足。耶利米早就指出百姓的病根：“我的百姓做了两件恶事，就是离弃我这活水的泉源，为自己凿出池子，是破裂不能存水的池子。”（耶2:13）</p>
+    <p>出17章的以色列人确实渴了，但他们的渴变成了<span class="hl-r">争闹与试探</span>：“耶和华是在我们中间不是？”（出17:7）约7章的群众也有渴，却变成了议论和纷争（7:12、43）。<b>同样的渴，可以把人推向争闹，也可以把人带到基督面前。</b>圣灵的工作，正是使我们承认干渴，并且转向那一位。</p>
+    <div class="hard">耶稣的弟兄看起来一点也不渴：他们有计划、有策略，要耶稣“显明给世人看”（7:4）。最危险的不是渴，而是<b>不觉得渴</b>。约翰下一句就说：“因为连他的弟兄……不信他。”（7:5）</div></div></div>
+  <div class="point"><span class="n">2</span><div><h3>给“信我的人”——喝的方法就是信</h3>
+    <p>耶稣没有说“人若渴了，可以到圣殿来”，而是“到我这里来”。来就是信，喝就是信（约6:35）。这应许不按血统（弟兄们离他最近却不信），不按学问（官长们读经却不信，7:48-49），不按功德（以赛亚说“没有银钱的也可以来”，赛55:1）。</p>
+    <p>彼得在五旬节把同一个应许宣告出去：“<span class="hl">因为这应许是给你们和你们的儿女，并一切在远方的人，就是主我们神所召来的</span>。”（徒2:39）这里有<span class="chip c-gold">圣约的宽度</span>：信徒和他们的儿女，并远方的外邦人——正如亚14:16-19所见列国上来守住棚节。</p></div></div>
+  <div class="point"><span class="n">3</span><div><h3>同一个邀请，两种回应</h3>
+    <p>邀请之后，“众人因着耶稣起了纷争”（7:43）。有人说“这真是那先知”，有人说“这是基督”，也有人要捉拿他（7:40-44）。福音的邀请从来不是中性的：它把人分开。今天这个邀请也临到我们——问题不是“我是否听过”，而是“我是否来喝了”。</p></div></div>
+  <div class="key">一句话：<b>应许是给干渴的罪人；领受的方法是信靠基督；应许的范围是信徒与他们的儿女，以及远方一切蒙召的人。</b></div>
+</section>
+
+<!-- HEAD 2 -->
+<section class="card reveal head-card" id="head2" style="--accent:var(--water)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-dove"/></svg></span><div><div class="kicker">Head 2 · What?</div><h2>要点二：这应许包含什么？</h2></div></div>
+  <p class="measure"><b>答案：<span class="chip c-water">活水的江河</span>，就是<span class="chip c-water">圣灵</span>自己——以及圣灵所带来的一切生命、洁净、丰盛与流露。</b></p>
+  <div class="point"><span class="n">1</span><div><h3>不只是礼物，而是赐礼物的那位</h3>
+    <p>约翰清楚解释：“这话是指着信他之人要受圣灵说的。”应许的核心不是一种感觉、一种恩赐、一次经历，而是<b>圣灵本身住在信徒里面</b>。海德堡要理问答第53问（主日20）论到圣灵时，承认祂与父、子同是永恒的真神，也赐给了我，使我借着真信心与基督和祂一切的恩惠有分，安慰我，并永远与我同在（此为要旨，非逐字引文）。第1问所说“生与死唯一的安慰”，也正是借着这位圣灵向我们确证的。</p></div></div>
+  <div class="point"><span class="n">2</span><div><h3>活水带来什么？</h3>
+    <div class="grid">
+      <div class="tile"><h4><svg style="color:var(--life)"><use href="#i-tree"/></svg>生命</h4><p>“这河水所到之处，凡滋生的动物都必生活。”（结47:9）圣灵使死人复活、使人重生（约3:5）。</p></div>
+      <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-drop"/></svg>洁净与新心</h4><p>“我也要赐给你们一个新心，将新灵放在你们里面。”（结36:26）</p></div>
+      <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-heart"/></svg>与基督联合</h4><p>“人若没有基督的灵，就不是属基督的。”（罗8:9）圣灵把基督的一切带给我们。</p></div>
+      <div class="tile"><h4><svg style="color:var(--flame)"><use href="#i-fire"/></svg>丰盛外流</h4><p>不是一杯，而是“江河”（复数）。圣灵所赐的，不止于满足自己，更要流向别人。</p></div>
+    </div></div></div>
+  <div class="point"><span class="n">3</span><div><h3>难点：江河从谁的腹中流出？</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>读法</th><th>断句</th><th>理由</th><th>需要面对的问题</th></tr></thead>
+      <tbody>
+        <tr><td><span class="chip c-water">信徒说</span><br>（和合本的读法）</td><td>“人若渴了，可以到我这里来喝。信我的人……从<b>他</b>（信徒）腹中要流出活水的江河来。”</td><td>句子自然连读；约4:14“我所赐的水要在<b>他里头</b>成为泉源”；7:39说“信他之人要受圣灵”。</td><td>旧约背景（结47；亚14:8）的水是从圣殿/耶路撒冷流出，而非从个人流出。</td></tr>
+        <tr><td><span class="chip c-gold">基督说</span></td><td>“人若渴了，可以到我这里来；信我的人可以喝。如经上所说：从<b>他</b>（基督）腹中要流出……”</td><td>与圣殿之河、被击打的磐石（出17；林前10:4）相合；约19:34水从基督肋旁流出；约2:21基督的身体就是殿。</td><td>断句与通常读法不同；古抄本没有标点，两种断句都可能。</td></tr>
+      </tbody></table></div>
+    <div class="key"><b>改革宗的牧养结论</b>：两种读法其实指向同一个真理——<span class="hl">基督是源头，信徒是渠道</span>。水先从被击打的磐石、从被扎的肋旁流出；然后，借着圣灵内住，从信徒里面流向别人。没有源头，渠道是干的；没有渠道，源头的水也会流向别处——但神乐意使用祂的子民。<b>我们永远不是泉源，只是河床。</b></div></div></div>
+</section>
+
+<!-- HEAD 3 -->
+<section class="card reveal head-card" id="head3" style="--accent:var(--flame)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-fire"/></svg></span><div><div class="kicker">Head 3 · How Fulfilled?</div><h2>要点三：这应许如何得着应验？</h2></div></div>
+  <p class="measure"><b>答案：借着<span class="chip c-gold">耶稣得着荣耀</span>——十字架、复活、升天——然后在<span class="chip c-fire">五旬节</span>从父那里把圣灵浇灌下来。</b></p>
+  <figure class="fig" style="--minw:620px">
+    <svg viewBox="0 0 800 170" role="img" aria-label="应验时间线：住棚节宣告、十字架、复活、升天、五旬节">
+      <defs><linearGradient id="tl" x1="0" x2="1"><stop offset="0" stop-color="#1f7fb8"/><stop offset=".45" stop-color="#a3243b"/><stop offset=".75" stop-color="#b8892b"/><stop offset="1" stop-color="#e0661c"/></linearGradient></defs>
+      <rect x="40" y="76" width="720" height="10" rx="5" fill="url(#tl)"/>
+      <g font-family="sans-serif" text-anchor="middle" font-size="13">
+        <g><circle cx="80" cy="81" r="22" fill="#1f7fb8"/><use href="#i-tent" x="68" y="69" width="24" height="24" style="color:#fff"/><text x="80" y="128" font-weight="700" fill="#145f8c">住棚节宣告</text><text x="80" y="146" fill="#5d6676">约7:37-39（秋）</text></g>
+        <g><circle cx="250" cy="81" r="22" fill="#a3243b"/><use href="#i-cross" x="238" y="69" width="24" height="24" style="color:#fff"/><text x="250" y="128" font-weight="700" fill="#a3243b">十字架</text><text x="250" y="146" fill="#5d6676">约12:23；19:34</text></g>
+        <g><circle cx="410" cy="81" r="22" fill="#2f8a4e"/><use href="#i-tree" x="398" y="69" width="24" height="24" style="color:#fff"/><text x="410" y="128" font-weight="700" fill="#22673a">复活</text><text x="410" y="146" fill="#5d6676">约20:22 吹气</text></g>
+        <g><circle cx="570" cy="81" r="22" fill="#b8892b"/><use href="#i-crown" x="558" y="69" width="24" height="24" style="color:#fff"/><text x="570" y="128" font-weight="700" fill="#7c5b12">升天·高举</text><text x="570" y="146" fill="#5d6676">徒1:9；2:33</text></g>
+        <g><circle cx="730" cy="81" r="24" fill="#e0661c"/><use href="#i-fire" class="flame" x="717" y="68" width="26" height="26" style="color:#fff"/><text x="730" y="128" font-weight="700" fill="#a8460b">五旬节</text><text x="730" y="146" fill="#5d6676">徒2:1-4、16-17</text></g>
+        <text x="400" y="30" font-size="14" fill="#0e1a2b" font-weight="700">“那时还没有赐下圣灵来，因为耶稣尚未得着荣耀。”（约7:39）</text>
+      </g>
+    </svg>
+  </figure>
+  <div class="point"><span class="n">1</span><div><h3>荣耀先经过十字架</h3>
+    <p>在约翰福音里，“得荣耀”首先是十字架：“人子得荣耀的时候到了……一粒麦子不落在地里死了，仍旧是一粒。”（约12:23-24）出17章，摩西要<b>击打</b>磐石，水才流出；保罗说“那磐石就是基督”（林前10:4）。在各各他，“惟有一个兵拿枪扎他的肋旁，随即有血和水流出来”（约19:34）。<span class="hl-r">我们争闹试探的罪，落在被击打的磐石身上</span>；水就为我们流出。</p></div></div>
+  <div class="point"><span class="n">2</span><div><h3>复活与升天：从父领受，浇灌下来</h3>
+    <p>复活的晚上，他“向他们吹一口气，说：你们受圣灵”（约20:22）——这是赐灵的记号与先尝（它与五旬节的关系，解经家有不同说明，但都承认两者都出于复活得荣耀的基督）。他说：“我去是与你们有益的；我若不去，保惠师就不到你们这里来。”（约16:7）升天之后，彼得宣告：他“既被神的右手高举，又从父受了所应许的圣灵，就把你们所看见所听见的，浇灌下来”（徒2:33）。</p></div></div>
+  <div class="point"><span class="n">3</span><div><h3>五旬节：一次的浇灌，持续的江河</h3>
+    <p>“这正是先知约珥所说的……在末后的日子，我要将我的灵浇灌凡有血气的。”（徒2:16-17）五旬节作为救赎历史的<b>事件</b>，就像十字架和复活一样，是一次完成、不再重复的；但它所开启的<b>江河</b>一直在流：圣灵借着福音的宣讲和圣礼，把人带到基督面前，使他们喝，并使他们成为流出活水的渠道。</p>
+    <div class="key">一句话：<b>没有十字架，就没有五旬节；没有被击打的磐石，就没有流出的江河。</b>耶稣在住棚节说“我的时候还没有到”（7:6、30），正是因为他走向那“得荣耀”的时候。</div></div></div>
+</section>
+
+<!-- MINDMAP -->
+<section class="card reveal" id="mindmap" style="--accent:var(--violet)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-star"/></svg></span><div><div class="kicker">Mind Map</div><h2>三要点思维导图</h2></div></div>
+  <figure class="fig" style="--minw:640px">
+    <svg viewBox="0 0 820 440" role="img" aria-label="思维导图：中心为约7:37-39，三个分支为给谁、包含什么、如何应验">
+      <g stroke-width="3" fill="none">
+        <path d="M410 220 C330 160 260 110 200 95" stroke="#a3243b"/><path d="M410 220 C410 300 410 330 410 350" stroke="#1f7fb8"/><path d="M410 220 C490 160 560 110 620 95" stroke="#e0661c"/>
+        <path d="M150 95 C110 60 90 40 70 35" stroke="#a3243b" stroke-width="2"/><path d="M150 95 L60 105" stroke="#a3243b" stroke-width="2"/><path d="M150 95 C110 140 90 160 70 170" stroke="#a3243b" stroke-width="2"/>
+        <path d="M670 95 C710 60 730 40 750 35" stroke="#e0661c" stroke-width="2"/><path d="M670 95 L760 105" stroke="#e0661c" stroke-width="2"/><path d="M670 95 C710 140 730 160 750 170" stroke="#e0661c" stroke-width="2"/>
+        <path d="M410 380 C330 400 260 410 220 412" stroke="#1f7fb8" stroke-width="2"/><path d="M410 380 L410 425" stroke="#1f7fb8" stroke-width="2"/><path d="M410 380 C490 400 560 410 600 412" stroke="#1f7fb8" stroke-width="2"/>
+      </g>
+      <g font-family="sans-serif" text-anchor="middle">
+        <circle cx="410" cy="220" r="70" fill="#0e1a2b"/><circle class="shim" cx="410" cy="220" r="78" fill="none" stroke="#e2c178" stroke-width="2"/>
+        <text x="410" y="210" fill="#e2c178" font-size="15" font-weight="700">约7:37-39</text><text x="410" y="232" fill="#fff" font-size="13">住棚节宣告</text><text x="410" y="250" fill="#fff" font-size="13">五旬节应许</text>
+        <rect x="140" y="72" width="120" height="46" rx="23" fill="#a3243b"/><text x="200" y="101" fill="#fff" font-size="15" font-weight="700">① 给谁？</text>
+        <rect x="350" y="335" width="120" height="46" rx="23" fill="#1f7fb8"/><text x="410" y="364" fill="#fff" font-size="15" font-weight="700">② 包含什么？</text>
+        <rect x="560" y="72" width="120" height="46" rx="23" fill="#e0661c"/><text x="620" y="101" fill="#fff" font-size="15" font-weight="700">③ 如何应验？</text>
+        <g font-size="12" fill="#a3243b"><text x="60" y="28">渴了的罪人</text><text x="44" y="100">信我的人</text><text x="60" y="186">你们和儿女·远方人</text></g>
+        <g font-size="12" fill="#a8460b"><text x="760" y="28">十字架</text><text x="770" y="100">复活·升天</text><text x="760" y="186">五旬节浇灌</text></g>
+        <g font-size="12" fill="#145f8c"><text x="200" y="430">圣灵自己</text><text x="410" y="438">生命·洁净·联合</text><text x="620" y="430">源头基督·渠道信徒</text></g>
+      </g>
+    </svg>
+  </figure>
+</section>
+<!-- LOOPS -->
+<section class="card reveal" id="loops" style="--accent:var(--gold)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-loop"/></svg></span><div><div class="kicker">Part VII · Four Closed Loops</div><h2>七、四重闭环 ①–④</h2></div></div>
+  <p class="measure">这四个闭环不是四篇独立的文章，而是同一条河从四个角度看：从<b>起点</b>流出，经过<b>危机</b>，在<b>基督</b>里转折，最后<b>回到并超越</b>起点。</p>
+
+  <h3 id="loop1"><span class="loop-badge" style="background:var(--water)">①</span>救赎历史闭环</h3>
+  <div class="tbl"><table><thead><tr><th>起点</th><th>危机</th><th>预表</th><th>转折</th><th>应验</th><th>完成</th></tr></thead>
+  <tbody><tr><td>伊甸之河（创2:10）</td><td><span class="chip c-sin">堕落</span>，被逐出园子，失去生命之源</td><td>磐石出水（出17）；住棚节；圣殿之河（结47）</td><td>基督得荣耀（约7:39；19:34）</td><td><span class="chip c-fire">五旬节</span>浇灌（徒2）</td><td>生命水的河从宝座流出（启22:1-2）</td></tr></tbody></table></div>
+  <p class="measure">住棚节站在“预表”的位置，五旬节站在“应验”的位置。约7:37-39就是两者之间的<b>铰链</b>。</p>
+
+  <h3 id="loop2"><span class="loop-badge" style="background:var(--gold)">②</span>圣约神学闭环</h3>
+  <div class="grid">
+    <div class="tile"><h4><svg style="color:var(--crimson)"><use href="#i-rock"/></svg>旧约的失败</h4><p>旷野一代在玛撒、米利巴试探神。诗95:8警告：“你们不可硬着心，像当日在米利巴，就是在旷野的玛撒。”（参来3:7-11）石头般的心不能守约。</p></div>
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-cross"/></svg>中保替我们被击打</h4><p>“那磐石就是基督”（林前10:4）。立约的神自己站在磐石那里（出17:6），担当了百姓的争闹；在十字架上，盟约的咒诅落在中保身上。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-dove"/></svg>新约的圣灵</h4><p>“我要将我的律法放在他们里面，写在他们心上。”（耶31:33）“我必将我的灵放在你们里面，使你们顺从我的律例。”（结36:27）圣灵就是新约的<b>印记</b>（弗1:13）。</p></div>
+    <div class="tile"><h4><svg style="color:var(--life)"><use href="#i-tent"/></svg>约的目标：同住</h4><p>住棚节记念神在旷野与百姓同在；道成肉身“住在我们中间”（约1:14）；圣灵使教会成为神的殿（林前3:16）；最后“神的帐幕在人间，他要与人同住”（启21:3）。</p></div>
+  </div>
+
+  <h3 id="loop3" style="margin-top:18px"><span class="loop-badge" style="background:var(--violet)">③</span>经文圣经神学闭环（约翰福音内部的“水”线索）</h3>
+  <figure class="fig" style="--minw:700px">
+    <svg viewBox="0 0 900 170" role="img" aria-label="约翰福音中水的线索">
+      <path class="flowline" d="M30 85 H870" stroke="#5fb8e6" stroke-width="6"/>
+      <g font-family="sans-serif" text-anchor="middle" font-size="12">
+        <g fill="#1f7fb8"><circle cx="60" cy="85" r="12"/><circle cx="160" cy="85" r="12"/><circle cx="260" cy="85" r="12"/><circle cx="360" cy="85" r="12"/></g>
+        <circle cx="470" cy="85" r="18" fill="#0e1a2b"/><g fill="#1f7fb8"><circle cx="580" cy="85" r="12"/></g>
+        <circle cx="680" cy="85" r="14" fill="#a3243b"/><circle cx="770" cy="85" r="14" fill="#a3243b"/><circle cx="855" cy="85" r="14" fill="#e0661c"/>
+        <text x="60" y="50" font-weight="700">1:33</text><text x="60" y="130">用圣灵施洗</text>
+        <text x="160" y="50" font-weight="700">3:5</text><text x="160" y="130">水和圣灵生</text>
+        <text x="260" y="50" font-weight="700">4:14</text><text x="260" y="130">泉源直涌永生</text>
+        <text x="360" y="50" font-weight="700">6:35</text><text x="360" y="130">信我永远不渴</text>
+        <text x="470" y="45" font-weight="700" fill="#b8892b">7:37-39</text><text x="470" y="130" fill="#0e1a2b" font-weight="700">活水江河=圣灵</text>
+        <text x="580" y="50" font-weight="700">9:7</text><text x="580" y="130">西罗亚=奉差遣</text>
+        <text x="680" y="50" font-weight="700" fill="#a3243b">19:28</text><text x="680" y="130" fill="#a3243b">“我渴了”</text>
+        <text x="770" y="50" font-weight="700" fill="#a3243b">19:34</text><text x="770" y="130" fill="#a3243b">血和水流出</text>
+        <text x="855" y="50" font-weight="700" fill="#e0661c">20:22</text><text x="855" y="130" fill="#e0661c">受圣灵</text>
+      </g>
+    </svg>
+  </figure>
+  <div class="key">最震撼的一笔：在住棚节高喊“<b>人若渴了</b>”的那一位，在十字架上说：“<span class="hl-r">我渴了</span>。”（约19:28）<b>他渴了，所以我们可以喝。</b>紧接着肋旁流出血和水（19:34），复活后向门徒吹气说“你们受圣灵”（20:22）。约7章的应许，在约19–20章合上了圆环；又在徒2章大大打开。</div>
+
+  <h3 id="loop4" style="margin-top:18px"><span class="loop-badge" style="background:var(--crimson)">④</span>改革宗闭环：罪 — 恩典 — 感恩</h3>
+  <figure class="fig" style="--minw:620px">
+    <svg viewBox="0 0 800 285" role="img" aria-label="罪、恩典、感恩流程图">
+      <defs><marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0e1a2b"/></marker></defs>
+      <g stroke="#0e1a2b" stroke-width="3" fill="none" marker-end="url(#ar3)"><path d="M250 110 H300"/><path d="M510 110 H560"/><path d="M670 180 C640 250 200 250 150 185"/></g>
+      <g font-family="sans-serif" text-anchor="middle">
+        <rect x="20" y="40" width="230" height="140" rx="18" fill="#f8dfe3" stroke="#a3243b" stroke-width="2.5"/>
+        <text x="135" y="72" font-size="20" font-weight="800" fill="#a3243b">罪 · 干渴</text>
+        <text x="135" y="100" font-size="13" fill="#0e1a2b">离弃活水泉源（耶2:13）</text><text x="135" y="122" font-size="13" fill="#0e1a2b">玛撒米利巴的试探（出17:7）</text><text x="135" y="144" font-size="13" fill="#0e1a2b">弟兄不信、众人纷争（约7:5、43）</text>
+        <rect x="300" y="40" width="210" height="140" rx="18" fill="#dcf0fb" stroke="#1f7fb8" stroke-width="2.5"/>
+        <text x="405" y="72" font-size="20" font-weight="800" fill="#145f8c">恩典 · 活水</text>
+        <text x="405" y="100" font-size="13" fill="#0e1a2b">磐石被击打（林前10:4）</text><text x="405" y="122" font-size="13" fill="#0e1a2b">耶稣得荣耀（约7:39）</text><text x="405" y="144" font-size="13" fill="#0e1a2b">圣灵浇灌（徒2:33）</text>
+        <rect x="560" y="40" width="220" height="140" rx="18" fill="#dff2e5" stroke="#2f8a4e" stroke-width="2.5"/>
+        <text x="670" y="72" font-size="20" font-weight="800" fill="#22673a">感恩 · 江河</text>
+        <text x="670" y="100" font-size="13" fill="#0e1a2b">来、喝、信</text><text x="670" y="122" font-size="13" fill="#0e1a2b">被圣灵充满（弗5:18）</text><text x="670" y="144" font-size="13" fill="#0e1a2b">成为流出活水的渠道</text>
+        <text x="410" y="275" font-size="13" fill="#5d6676">感恩的生活使我们更认识自己的干渴，更多回到基督——一生的循环</text>
+      </g>
+    </svg>
+  </figure>
+  <p class="measure">海德堡要理问答的三部分结构——人的<span class="chip c-sin">悲惨</span>、蒙<span class="chip c-water">拯救</span>、向神<span class="chip c-life">感恩</span>——正好对应本段：<b>人若渴了</b>（悲惨）；<b>到我这里来喝……指着圣灵说的</b>（拯救）；<b>从他腹中要流出活水的江河来</b>（感恩的流露）。</p>
+</section>
+
+<!-- PARALLELS -->
+<section class="card reveal" id="parallels" style="--accent:var(--water)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-book"/></svg></span><div><div class="kicker">Part VIII · Parallel Texts</div><h2>八、类似经文的核心（平行经文对照）</h2></div></div>
+  <div class="tbl"><table><thead><tr><th>经文</th><th>和合本（节录）</th><th>与约7:37-39的连结</th></tr></thead><tbody>
+    <tr><td>赛55:1</td><td>“你们一切干渴的都当就近水来；没有银钱的也可以来。”</td><td>邀请的对象：干渴者；白白的恩典</td></tr>
+    <tr><td>赛44:3</td><td>“我要将我的灵浇灌你的后裔”</td><td>水与灵并列</td></tr>
+    <tr><td>赛12:3</td><td>“所以，你们必从救恩之泉欢然取水。”</td><td>取水与救恩、欢乐</td></tr>
+    <tr><td>结47:9</td><td>“这河水所到之处，凡滋生的动物都必生活”</td><td>殿中流出的生命河</td></tr>
+    <tr><td>亚14:8</td><td>“那日，必有活水从耶路撒冷出来”</td><td>与住棚节（14:16）同章</td></tr>
+    <tr><td>珥2:28</td><td>“我要将我的灵浇灌凡有血气的”</td><td>徒2:16-17 引用</td></tr>
+    <tr><td>约4:14</td><td>“我所赐的水要在他里头成为泉源，直涌到永生。”</td><td>源头在基督，泉源在信徒里面</td></tr>
+    <tr><td>约16:7</td><td>“我若不去，保惠师就不到你们这里来”</td><td>“尚未得着荣耀”的解释</td></tr>
+    <tr><td>徒2:33</td><td>“既被神的右手高举，又从父受了所应许的圣灵”</td><td>应验</td></tr>
+    <tr><td>林前10:4</td><td>“所喝的是出于随着他们的灵磐石；那磐石就是基督。”</td><td>出17与约7的桥梁</td></tr>
+    <tr><td>林前12:13</td><td>“饮于一位圣灵”（12:13 节录）</td><td>喝=领受圣灵；全教会共同有分</td></tr>
+    <tr><td>启22:17</td><td>“口渴的人也当来；愿意的，都可以白白取生命的水喝。”</td><td>最后的邀请，与约7:37同声</td></tr>
+  </tbody></table></div>
+</section>
+<!-- DISCUSSION -->
+<section class="card reveal" id="discussion" style="--accent:var(--violet)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-q"/></svg></span><div><div class="kicker">Part IX · Discussion</div><h2>九、讨论题与答案分析</h2></div></div>
+  <div class="qa">
+    <details><summary>“那时还没有赐下圣灵来”——旧约的圣徒没有圣灵吗？</summary><div class="ans"><p><b>不是。</b>旧约信徒同样是靠圣灵重生、相信、顺服的；大卫祷告说：“不要从我收回你的圣灵。”（诗51:11）摩西也盼望“耶和华的百姓都受感说话”（民11:29）。区别不在<b>有无</b>，而在<b>救赎历史的阶段</b>：基督得荣耀之后，圣灵作为“基督的灵”，以基督已成就之工为根基，更丰盛地、普遍地（凡有血气的）、长久地住在教会这新圣殿中。</p><p><span class="chip c-gold">结论</span>“还没有”是时代性的，不是本体性的。</p></div></details>
+    <details><summary>“尚未得着荣耀”具体指什么？为什么圣灵要等到那时？</summary><div class="ans"><p>在约翰福音中，“荣耀”首先指十字架（12:23-24；13:31），也包括复活和回到父那里（17:5）。圣灵所赐给人的，是基督已经成就的救恩；救恩未成就，就还没有可以“浇灌”的完成之工。所以约16:7说“我去是与你们有益的”。</p><p><span class="chip c-gold">结论</span>圣灵的浇灌是基督工作的果子，而不是另一条独立的路。</p></div></details>
+    <details><summary>活水的江河究竟从谁腹中流出？</summary><div class="ans"><p>见<a href="#head2">要点二</a>的对照表。和合本按“信徒”来读，与约4:14相合；另一种断句读作“基督”，与结47、出17、约19:34相合。两者并不互相排斥：<b>水从基督流出，借着圣灵在信徒里面成为泉源，再流向他人。</b></p><p><span class="chip c-gold">结论</span>不要把自己当作泉源；也不要以为自己只是一个封闭的水池。</p></div></details>
+    <details><summary>五旬节会重复吗？今天还要等待“另一个五旬节”吗？</summary><div class="ans"><p>五旬节是救赎历史的<b>一次性事件</b>，正如十字架、复活、升天一样不再重复：被高举的基督已经把圣灵浇灌在他的教会中。徒8、10、19章的情形，是同一个浇灌临到撒玛利亚人、外邦人等新群体的见证。今天我们不是等待另一个五旬节，而是祈求圣灵借着神的道更丰盛地工作（路11:13），并且“被圣灵充满”（弗5:18）。</p></div></details>
+    <details><summary>我怎么知道自己有圣灵？</summary><div class="ans"><p>不是首先看非常的经历，而是看圣灵所做的工作：（1）承认耶稣是主——“若不是被圣灵感动的，也没有能说耶稣是主的”（林前12:3）；（2）信靠基督、渴慕他的道；（3）与罪争战（罗8:13）；（4）圣灵与我们的心同证我们是神的儿女（罗8:16）；（5）结出圣灵的果子（加5:22-23）。海德堡要理问答第1问所说的安慰，也是圣灵使我们确知的。</p><p><span class="chip c-gold">结论</span>真渴慕基督，本身就是圣灵已经在工作的记号。</p></div></details>
+    <details><summary>今天人的“干渴”有哪些样子？</summary><div class="ans"><p>对认可的渴、对成功的渴、对安全感的渴、对刺激的渴、对爱的渴……这些常被我们拿去“破裂的池子”里解决（耶2:13）。也有一种属灵的干渴：在教会里很忙，却里面枯干——像住棚节很热闹，心却渴。</p><p><span class="chip c-gold">结论</span>干渴本身不是罪；罪是把干渴带到错的地方，或像旷野百姓那样用干渴来控告神。</p></div></details>
+    <details><summary>出17章和约7章有什么关系？我们和旷野的以色列人有什么相同？</summary><div class="ans"><p>两处都有干渴、都有争闹（出17:2；约7:12、43），也都有神在争闹中的恩典。旷野里神站在磐石上（出17:6），摩西击打磐石；在十字架上，基督这磐石被击打（林前10:4），血和水流出（约19:34）。我们也常问“耶和华是在我们中间不是？”，可是神的回答不是审判我们，而是让祂的儿子被击打。</p></div></details>
+    <details><summary>“信”就是“喝”——那信心是不是我们自己的功劳？</summary><div class="ans"><p>不是。喝水不是赚取水，而是领受水。信心是空手接受基督的手（参弗2:8“这并不是出于自己，乃是神所赐的”）。所以邀请是真实的（人人都被呼召来喝），而能来喝的心也是圣灵所赐的。</p></div></details>
+    <details><summary>耶稣为什么选在住棚节、而且是最后最大的日子宣告？</summary><div class="ans"><p>住棚节记念旷野的供应（利23:43），盼望末日的活水（亚14:8、16），是秋收的欢乐节期（申16:14-15）。在这个节期的高潮，耶稣宣告：节期的一切记念与盼望，都在我身上成就。他把人的眼目从仪式引向实体，从年年重复引向一次完成。</p></div></details>
+    <details><summary>我怎样成为“流出活水”的人？会不会变成靠自己努力？</summary><div class="ans"><p>渠道不能自己产生水，只能<b>保持连接、保持畅通</b>：常在主的道中（约15:7）、勤用蒙恩之道（宣讲、圣礼、祷告）、悔改除去堵塞的罪、在教会的团契中彼此服事、向邻舍作见证（徒1:8）。流出来的是基督的生命，不是我们的表演。</p><p><span class="chip c-gold">结论</span>先喝，再流；越喝，越流。</p></div></details>
+    <details><summary>“这应许是给你们和你们的儿女”（徒2:39）对我们的家庭意味着什么？</summary><div class="ans"><p>欧陆改革宗教会相信圣约的应许包括信徒的儿女，这也是婴孩洗礼的根据之一。但应许要用信心领受：父母要把孩子带到“活水”旁边，教导他们“来、喝、信”，并为他们祈求圣灵。</p></div></details>
+  </div>
+</section>
+
+<!-- EXPANSION -->
+<section class="card reveal" id="expansion" style="--accent:var(--life)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-star"/></svg></span><div><div class="kicker">Part X · Expansion</div><h2>十、拓展</h2></div></div>
+  <h3>拓展一：利未记23章节期与基督的成全</h3>
+  <div class="tbl"><table><thead><tr><th>季节</th><th>节期（利23）</th><th>原本意义</th><th>在基督里</th></tr></thead><tbody>
+    <tr><td>春</td><td><span class="chip c-sin">逾越节</span>·除酵节</td><td>出埃及，羔羊的血</td><td>“我们逾越节的羔羊基督已经被杀献祭了”（林前5:7）</td></tr>
+    <tr><td>春</td><td><span class="chip c-life">初熟节</span></td><td>献上初熟的庄稼</td><td>基督复活，“成为睡了之人初熟的果子”（林前15:20）</td></tr>
+    <tr><td>初夏</td><td><span class="chip c-fire">七七节（五旬节）</span></td><td>麦子收割</td><td>圣灵浇灌，三千人归主（徒2:1-4、41）</td></tr>
+    <tr><td>秋</td><td>吹角节·赎罪日</td><td>召聚、大祭司进至圣所</td><td>基督“用自己的血，只一次进入圣所”（来9:12）</td></tr>
+    <tr><td>秋</td><td><span class="chip c-water">住棚节</span></td><td>记念旷野、庆祝秋收</td><td>道成肉身“住在我们中间”（约1:14）；活水（约7:37-39）；最终“神的帐幕在人间”（启21:3）</td></tr>
+  </tbody></table></div>
+  <p class="measure" style="font-size:.92rem;color:var(--muted)">（这张表展示新约明说的连结；不宜把每个节期都机械地对应到某一个未来日期。）</p>
+  <div class="grid g2" style="margin-top:12px">
+    <div class="tile"><h4><svg style="color:var(--flame)"><use href="#i-cup"/></svg>拓展二：诗篇23篇——福杯满溢</h4><p>“领我在可安歇的水边”（23:2）；“你为我摆设筵席……使我的福杯满溢”（23:5）。好牧人不是只给“够用”的水，而是满溢的杯。约7:38的“江河”正是这满溢的新约版本：杯满了，就流出来。今日唱诗篇23篇，是在唱圣灵所带来的丰盛。</p></div>
+    <div class="tile"><h4><svg style="color:var(--water)"><use href="#i-drop"/></svg>拓展三：西罗亚池与约9章</h4><p>据拉比文献，住棚节取水礼的水取自西罗亚池。约9章（仍在住棚节之后的同一段落），耶稣叫生来瞎眼的人“往西罗亚池子里去洗”，约翰特意说明“西罗亚翻出来就是奉差遣”（9:7）。真正的“奉差遣者”就是耶稣；水与光（8:12；9:5）在他身上合一。</p></div>
+    <div class="tile"><h4><svg style="color:var(--gold)"><use href="#i-music"/></svg>拓展四：诗29篇与诗30篇</h4><p>诗29篇：耶和华的声音在大水之上，“耶和华坐着为王”（29:10）——高声宣告的那位是掌管众水的王。诗30篇：“一宿虽然有哭泣，早晨便必欢呼”（30:5）——十字架的夜之后，是复活与五旬节的早晨。</p></div>
+    <div class="tile"><h4><svg style="color:var(--crimson)"><use href="#i-rock"/></svg>拓展五：民20章的第二次磐石</h4><p>民20:1-13另有一次在米利巴的磐石出水，那次摩西被吩咐“吩咐磐石”，他却击打两下，因此不得进迦南。这提醒我们：带领百姓的人自己也需要恩典；真正完全的中保只有基督。</p></div>
+  </div>
+</section>
+
+<!-- MEMORIZE -->
+<section class="card reveal" id="memorize" style="--accent:var(--flame)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-key"/></svg></span><div><div class="kicker">Part XI · Memorize</div><h2>十一、速记总结</h2></div></div>
+  <div class="mem">
+    <div class="m" style="background:linear-gradient(135deg,#a3243b,#6d1626)"><b>① 给谁？</b>给一切<b style="display:inline;font-size:1em">渴了</b>而来到基督面前<b style="display:inline;font-size:1em">信</b>他的人，并他们的儿女和远方蒙召的人。</div>
+    <div class="m" style="background:linear-gradient(135deg,#1f7fb8,#0f4d74)"><b>② 包含什么？</b>活水的江河就是<b style="display:inline;font-size:1em">圣灵</b>自己：生命、洁净、与基督联合，并从我们里面流向别人。</div>
+    <div class="m" style="background:linear-gradient(135deg,#e0661c,#9a3d08)"><b>③ 如何应验？</b>借着耶稣<b style="display:inline;font-size:1em">得荣耀</b>——十架、复活、升天——在五旬节浇灌下来。</div>
+  </div>
+  <div class="key" style="margin-top:16px;font-size:1.1em;text-align:center"><b>口诀：渴 · 来 · 信 · 喝 · 流</b><br><span style="font-size:.9em">（渴了的人 → 来到基督 → 信靠他 → 喝圣灵 → 流出江河）</span><br><b>三水：</b><span class="chip c-sin">磐石之水 出17</span><span class="chip c-water">节期之水 约7</span><span class="chip c-life">宝座之水 启22</span></div>
+  <h3>证明经文表</h3>
+  <div class="tbl"><table><thead><tr><th>主题</th><th>核心经文</th><th>记忆钩子</th></tr></thead><tbody>
+    <tr><td>邀请</td><td>约7:37；赛55:1；启22:17</td><td>从先知到启示录，同一句“来喝”</td></tr>
+    <tr><td>磐石</td><td>出17:6；林前10:4</td><td>磐石就是基督</td></tr>
+    <tr><td>活水=圣灵</td><td>约7:39；4:14；赛44:3</td><td>水与灵并列</td></tr>
+    <tr><td>荣耀</td><td>约12:23；19:28、34</td><td>他渴了，我们可以喝</td></tr>
+    <tr><td>浇灌</td><td>珥2:28；徒2:16-17、33</td><td>“这正是”</td></tr>
+    <tr><td>新约</td><td>结36:26-27；耶31:33</td><td>新心、新灵、律法写在心上</td></tr>
+    <tr><td>完成</td><td>启21:3；22:1</td><td>帐幕在人间，河从宝座流出</td></tr>
+  </tbody></table></div>
+  <div class="tbl"><table><thead><tr><th>要记住的难点</th><th>一句话答案</th></tr></thead><tbody>
+    <tr><td><span class="chip c-violet">第七日还是第八日？</span></td><td>都有支持；重点是节期最高潮。</td></tr>
+    <tr><td><span class="chip c-violet">“经上所说”在哪里？</span></td><td>没有单一出处，是结47、亚14、赛12/44/55、出17/诗78的综合主题。</td></tr>
+    <tr><td><span class="chip c-violet">从谁腹中？</span></td><td>基督是源头，信徒是渠道。</td></tr>
+    <tr><td><span class="chip c-violet">圣灵“还没有”？</span></td><td>指救赎历史中的浇灌，不是说圣灵不存在或旧约圣徒没有圣灵。</td></tr>
+    <tr><td><span class="chip c-violet">取水礼、灯光礼？</span></td><td>见于后来的《密西拿》，细节不可过度断言。</td></tr>
+  </tbody></table></div>
+</section>
+
+<!-- CLOSE -->
+<section class="card reveal" id="close" style="--accent:var(--ink)">
+  <div class="sec-h"><span class="ico"><svg><use href="#i-heart"/></svg></span><div><div class="kicker">Conclusion</div><h2>结语：来，喝！</h2></div></div>
+  <div class="hero-grid">
+    <div class="measure">
+      <p>弟兄姊妹，住棚节的灯火早已熄灭，圣殿的祭坛早已不在，西罗亚池的金壶也不再上山。约翰写这卷书时，读者已经看不到那一切。可是他们不需要——因为那节期所指的那一位还活着，而且已经得着荣耀，把圣灵浇灌在他的教会中。</p>
+      <p>你若渴了，不要像旷野的百姓那样争闹，也不要像耶稣的弟兄那样不信，更不要在破裂的池子边再徘徊。<b>到他这里来喝。</b>你若已经喝了，就不要把自己当作一个封闭的水池——让活水从你流向你的家庭、你的教会、你的邻舍。</p>
+      <blockquote class="verse" style="text-align:center;font-size:1.15em"><b>一句福音：</b><span class="hl-r">他在十字架上渴了</span>，<span class="hl">被击打如磐石</span>；<br><span class="hl-w">如今他得着荣耀，把圣灵像江河一样赐给一切渴了、信他的人。</span></blockquote>
+      <p>“口渴的人也当来；愿意的，都可以白白取生命的水喝。”（启22:17）阿们。</p>
+    </div>
+    <svg viewBox="0 0 300 240" role="img" aria-label="五旬节的火焰与流动的江河" style="width:100%;max-width:360px;justify-self:center;height:auto">
+      <path d="M0 200 C60 180 120 220 180 200 S270 180 300 195 V240 H0Z" fill="#5fb8e6" opacity=".7"/>
+      <path class="flowline" d="M0 210 C60 190 120 230 180 210 S270 190 300 205" stroke="#fff" stroke-width="3" fill="none"/>
+      <g transform="translate(60 30)">
+        <path class="flame" d="M40 150c-22 0-36-17-36-36 0-24 22-36 28-68 13 18 9 32 20 40 5-13 11-18 11-31 14 19 14 40 14 59 0 20-15 36-37 36z" fill="#e0661c"/>
+        <path class="flame d2" d="M100 150c-16 0-27-13-27-27 0-18 16-25 21-50 10 13 7 23 14 29 4-9 8-13 8-23 10 13 11 30 11 44 0 15-11 27-27 27z" fill="#f6a33a"/>
+        <path class="flame d3" d="M150 150c-12 0-20-10-20-20 0-14 12-19 15-37 8 10 5 17 10 22 3-7 6-10 6-17 8 10 8 22 8 32 0 11-8 20-19 20z" fill="#e0661c"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<footer>欧陆改革宗主日讲章 · 约翰福音 7:37-39 · 《在住棚节的最后一天耶稣宣告了五旬节的应许》 · v1 · 2026-10-11<br>经文引用：和合本（1919）。图示均为示意。</footer>
+</main>
+</div>
+<button class="totop" id="totop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var b=document.body, btn=document.getElementById('tocBtn'), scrim=document.getElementById('scrim'), toc=document.getElementById('toc');
+  var mq=window.matchMedia('(max-width:980px)');
+  function isMobile(){return mq.matches}
+  function sync(){var open=isMobile()?b.classList.contains('toc-open'):!b.classList.contains('toc-hidden');btn.setAttribute('aria-expanded',open?'true':'false')}
+  btn.addEventListener('click',function(){ if(isMobile()) b.classList.toggle('toc-open'); else b.classList.toggle('toc-hidden'); sync(); });
+  scrim.addEventListener('click',function(){b.classList.remove('toc-open');sync()});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){b.classList.remove('toc-open');sync()}});
+  toc.addEventListener('click',function(e){ if(e.target.closest('a') && isMobile()){ b.classList.remove('toc-open'); sync(); } });
+  (mq.addEventListener?mq.addEventListener('change',sync):mq.addListener(sync)); sync();
+  // progress + totop
+  var prog=document.getElementById('progress'), top=document.getElementById('totop'), ticking=false;
+  function onScroll(){ var h=document.documentElement, max=h.scrollHeight-h.clientHeight; prog.style.width=(max>0?(h.scrollTop/max*100):0)+'%'; top.classList.toggle('show',h.scrollTop>600); ticking=false; }
+  window.addEventListener('scroll',function(){ if(!ticking){ticking=true;requestAnimationFrame(onScroll)} },{passive:true}); onScroll();
+  top.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+  // reveal
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(el){io.observe(el)});
+    // scrollspy
+    var links={}; toc.querySelectorAll('a[href^="#"]').forEach(function(a){links[a.getAttribute('href').slice(1)]=a});
+    var spy=new IntersectionObserver(function(es){es.forEach(function(en){ if(en.isIntersecting){ var a=links[en.target.id]; if(a){ toc.querySelectorAll('a.active').forEach(function(x){x.classList.remove('active')}); a.classList.add('active'); } } })},{rootMargin:'-20% 0px -70% 0px'});
+    Object.keys(links).forEach(function(id){var el=document.getElementById(id); if(el) spy.observe(el)});
+  } else { els.forEach(function(el){el.classList.add('in')}); }
+  // expand all
+  var ex=document.getElementById('expandAll'), open=false;
+  ex.addEventListener('click',function(){ open=!open; document.querySelectorAll('details').forEach(function(d){d.open=open}); ex.querySelector('.lbl').textContent=open?'全部收起':'全部展开'; });
+})();
+</script>
+</body>
+</html>
+<!--
+QA CHECKLIST (v1, 2026-10-11 Asia/Taipei)
+[x] No horizontal overflow: headless Chrome (CDP device emulation) at 360 / 400 / 768 / 1280 px; documentElement.scrollWidth == viewport width; 0 elements outside viewport (tables & SVG figures scroll inside their own .tbl/.fig boxes); 0 clipped tiles/chips; 0 overlapping grid children.
+[x] TOC hides: desktop (>980px) sidebar collapses via body.toc-hidden; mobile drawer opens/closes via body.toc-open, scrim click, link click, Esc; aria-expanded synced.
+[x] Three heads present: #head1 这应许是给谁的？ / #head2 这应许包含什么？ / #head3 这应许如何得着应验？
+[x] Four loops present: #loop1 ① 救赎历史 / #loop2 ② 圣约神学 / #loop3 ③ 经文圣经神学 / #loop4 ④ 罪–恩典–感恩
+[x] No external JS/CSS/images; inline SVG only; prefers-reduced-motion respected.
+-->
